@@ -1,0 +1,1388 @@
+Package: ahcpd
+Version: 0.53-3
+Depends: libc, ip, librt
+License: MIT
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 21261
+Filename: ahcpd_0.53-3_arm_cortex-a15_neon-vfpv4.ipk
+Size: 22098
+SHA256sum: 61321138ab061c05567f1bb09f510805d5e6a91138c866b0b5acc5e65fee45f9
+Description:  Ahcpd is a daemon for configuring an IPv6 network using the Ad-Hoc
+ Configuration Protocol (AHCP).  AHCP is designed for wireless mesh
+ networks, where IPv6 autoconfiguration and DHCPv6 do not work, but may
+ also be used on wired networks.
+
+Package: alfred
+Version: 2021.1-1
+Depends: libc, libnl-tiny1, librt
+License: GPL-2.0-only MIT
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 22712
+Filename: alfred_2021.1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 23952
+SHA256sum: 121a9b3a8e76b02ce8b55648dc81a8de24931e70dc4982fafee9c95991506bc0
+Description:  alfred is a user space daemon for distributing arbitrary local information
+ over the mesh/network in a decentralized fashion. This data can be anything
+ which appears to be useful - originally designed to replace the batman-adv
+ visualization (vis), you may distribute hostnames, phone books, administration
+ information, DNS information, the local weather forecast ...
+ 
+ alfred runs as daemon in the background of the system. A user may insert
+ information by using the alfred binary on the command line, or use special
+ programs to communicate with alfred (done via unix sockets). alfred then takes
+ care of distributing the local information to other alfred servers on other
+ nodes. This is done via IPv6 link-local multicast, and does not require any
+ configuration. A user can request data from alfred, and will receive the
+ information available from all alfred servers in the network.
+
+Package: babel-pinger
+Version: 0.1-1
+Depends: libc, librt
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 3655
+Filename: babel-pinger_0.1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 4446
+SHA256sum: 6027d36da874d191c2a18ef076eda037d6ca7c5aa2ff281f0e4faeded1f523c3
+Description:  Babel-pinger is a hack to export a default route into Babel for people
+ using DHCP to configure their routers rather than speaking to their
+ upstream provider with a proper routing protocol.
+
+Package: babeld
+Version: 1.11-1
+Depends: libc, libubus20210630, libubox20210516
+License: MIT
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 61322
+Filename: babeld_1.11-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 62468
+SHA256sum: 9fd48489c93fbbdb7775351db4c4a9acc4b0abfe94cac56e1003dc10b92f889c
+Description:  Babel is a loop-avoiding distance-vector routing protocol for IPv6 and IPv4
+ with fast convergence properties. It is based on the ideas in DSDV, AODV and
+ Cisco's EIGRP, but is designed to work well not only in wired networks but
+ also in wireless mesh networks, and has been extended with support for
+ overlay networks. Babel is in the process of becoming an IETF Standard.
+
+Package: batctl-default
+Version: 2021.1-1
+Depends: libc, libnl-tiny1, librt
+Provides: batctl
+Alternatives: 200:/usr/sbin/batctl:/usr/libexec/batctl-default
+License: GPL-2.0-only ISC MIT
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 41254
+Filename: batctl-default_2021.1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 42211
+SHA256sum: d536a15a58dff433475ee6bb3e141853f84f87b8cb910cd5dfa5a5966d10c7ae
+Description:  batctl is a more intuitive managment utility for B.A.T.M.A.N.-Advanced.
+ It is an easier method for configuring batman-adv and provides some
+ additional tools for debugging as well. This package builds
+ version 2021.1 of the user space utility.
+ Standard subcommands for configuration and online debugging are enabled.
+
+Package: batctl-full
+Version: 2021.1-1
+Depends: libc, libnl-tiny1, librt
+Provides: batctl
+Alternatives: 300:/usr/sbin/batctl:/usr/libexec/batctl-full
+License: GPL-2.0-only ISC MIT
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 48489
+Filename: batctl-full_2021.1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 49548
+SHA256sum: 1fb85118eab60a42e785817c4243f28506b37fa6e40c20fd014a736cc90aac15
+Description:  batctl is a more intuitive managment utility for B.A.T.M.A.N.-Advanced.
+ It is an easier method for configuring batman-adv and provides some
+ additional tools for debugging as well. This package builds
+ version 2021.1 of the user space utility.
+ Subcommands for configuration, online and offline debugging are enabled.
+
+Package: batctl-tiny
+Version: 2021.1-1
+Depends: libc, libnl-tiny1, librt
+Provides: batctl
+Alternatives: 100:/usr/sbin/batctl:/usr/libexec/batctl-tiny
+License: GPL-2.0-only ISC MIT
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 13824
+Filename: batctl-tiny_2021.1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 14800
+SHA256sum: ba03858e8fa4124bd90808f0276b6fa901bf43ec0772de418c9181c954c1b2ff
+Description:  batctl is a more intuitive managment utility for B.A.T.M.A.N.-Advanced.
+ It is an easier method for configuring batman-adv and provides some
+ additional tools for debugging as well. This package builds
+ version 2021.1 of the user space utility.
+ Only configuration relevant subcommands are enabled.
+
+Package: batmand
+Version: 1440-1
+Depends: libc, libpthread, kmod-tun
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 39822
+Filename: batmand_1440-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 40599
+SHA256sum: 582d8054e8de8986b5db54cfd441cea51582d51a9fb86eb2aa943332e578fe71
+Description:  B.A.T.M.A.N. layer 3 routing daemon
+
+Package: bird1-ipv4-uci
+Version: 0.3-1
+Depends: libc, bird1-ipv4, libuci20130104, uci
+License: GPL-3.0+
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 6733
+Filename: bird1-ipv4-uci_0.3-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 7732
+SHA256sum: f1c15799ddd1386d7f6ee947d287409012f727ca1d30b3114ddc8413478112f9
+Description:  bird1-ipv4 UCI integration module
+
+Package: bird1-ipv4
+Version: 1.6.8-2
+Depends: libc, libpthread
+Conflicts: bird4
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 197649
+Filename: bird1-ipv4_1.6.8-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 198785
+SHA256sum: 24844b7910333efd608f23dfe4837a2cf081fe8617c30ff128ce7cbd2f8ea9b9
+Description:  BIRD is an internet routing daemon which manages TCP/IP routing tables
+ with support of modern routing protocols, easy to use configuration
+ interface and powerful route filtering language. It is lightweight and
+ efficient and therefore appropriate for small embedded routers.
+ 
+ This packages the legacy v1.6 branch of Bird, which splits IPv4 and IPv6
+ support into separate binaries. See also the bird2 package for the newer
+ branch which integrates support for both IP protocols in a single binary.
+ 
+ This is IPv4 version of BIRD, it supports OSPFv2, RIPv2 and BGP
+ protocols.
+ 
+ In BGP, BIRD supports communities, multiprotocol extensions, MD5
+ authentication, 32bit AS numbers and could act as a route server or a
+ route reflector. BIRD also supports multiple RIBs, multiple kernel
+ routing tables and redistribution between the protocols with a powerful
+ configuration syntax.
+ 
+
+Package: bird1-ipv6-uci
+Version: 0.3-1
+Depends: libc, bird1-ipv6, libuci20130104, uci
+License: GPL-3.0+
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 5895
+Filename: bird1-ipv6-uci_0.3-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 6826
+SHA256sum: d6dbb441658c7d741c650941b1732dabac7af90a30be8beab0da335587300b7e
+Description:  bird1-ipv6 UCI integration module
+
+Package: bird1-ipv6
+Version: 1.6.8-2
+Depends: libc, libpthread
+Conflicts: bird6
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 226986
+Filename: bird1-ipv6_1.6.8-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 228087
+SHA256sum: 8e67973836f2e2339af73277f8a5ed915d22f9908d98b481f3a779bba512abaa
+Description:  BIRD is an internet routing daemon which manages TCP/IP routing tables
+ with support of modern routing protocols, easy to use configuration
+ interface and powerful route filtering language. It is lightweight and
+ efficient and therefore appropriate for small embedded routers.
+ 
+ This packages the legacy v1.6 branch of Bird, which splits IPv4 and IPv6
+ support into separate binaries. See also the bird2 package for the newer
+ branch which integrates support for both IP protocols in a single binary.
+ 
+ This is IPv6 version of BIRD, it supports OSPFv3, RIPng and BGP
+ protocols.
+ 
+ In BGP, BIRD supports communities, multiprotocol extensions, MD5
+ authentication, 32bit AS numbers and could act as a route server or a
+ route reflector. BIRD also supports multiple RIBs, multiple kernel
+ routing tables and redistribution between the protocols with a powerful
+ configuration syntax.
+ 
+
+Package: bird1c-ipv4
+Version: 1.6.8-2
+Depends: libc, libreadline8, libncurses6, bird1-ipv4
+Conflicts: birdc4
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 8514
+Filename: bird1c-ipv4_1.6.8-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 9728
+SHA256sum: c35d6f738ac9130633e9dfa3690ba623de153962d4dcac9fb65dbf1af806086e
+Description:  BIRD is an internet routing daemon which manages TCP/IP routing tables
+ with support of modern routing protocols, easy to use configuration
+ interface and powerful route filtering language. It is lightweight and
+ efficient and therefore appropriate for small embedded routers.
+ 
+ This packages the legacy v1.6 branch of Bird, which splits IPv4 and IPv6
+ support into separate binaries. See also the bird2 package for the newer
+ branch which integrates support for both IP protocols in a single binary.
+ 
+ This is a BIRD command-line client. It is used to send commands to BIRD,
+ commands can perform simple actions such as enabling/disabling of
+ protocols, telling BIRD to show various information, telling it to show
+ a routing table filtered by a filter, or asking BIRD to reconfigure.
+ 
+ Unless you can't afford dependency on ncurses and readline, you
+ should install BIRD command-line client together with BIRD.
+ 
+
+Package: bird1c-ipv6
+Version: 1.6.8-2
+Depends: libc, libreadline8, libncurses6, bird1-ipv6
+Conflicts: birdc6
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 8586
+Filename: bird1c-ipv6_1.6.8-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 9794
+SHA256sum: ab9b1bfafbfc6ff3f4d60f0225019f7b0c609b419f95e8af451d07ded1b37316
+Description:  BIRD is an internet routing daemon which manages TCP/IP routing tables
+ with support of modern routing protocols, easy to use configuration
+ interface and powerful route filtering language. It is lightweight and
+ efficient and therefore appropriate for small embedded routers.
+ 
+ This packages the legacy v1.6 branch of Bird, which splits IPv4 and IPv6
+ support into separate binaries. See also the bird2 package for the newer
+ branch which integrates support for both IP protocols in a single binary.
+ 
+ This is a BIRD command-line client. It is used to send commands to BIRD,
+ commands can perform simple actions such as enabling/disabling of
+ protocols, telling BIRD to show various information, telling it to show
+ a routing table filtered by a filter, or asking BIRD to reconfigure.
+ 
+ Unless you can't afford dependency on ncurses and readline, you
+ should install BIRD command-line client together with BIRD.
+ 
+
+Package: bird1cl-ipv4
+Version: 1.6.8-2
+Depends: libc, bird1-ipv4
+Conflicts: birdcl4
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 7817
+Filename: bird1cl-ipv4_1.6.8-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 8962
+SHA256sum: 2d0e68040a505124fc7bc62e1b61b0ea169454ca90cd0d1b9711740afb460fb7
+Description:  BIRD is an internet routing daemon which manages TCP/IP routing tables
+ with support of modern routing protocols, easy to use configuration
+ interface and powerful route filtering language. It is lightweight and
+ efficient and therefore appropriate for small embedded routers.
+ 
+ This packages the legacy v1.6 branch of Bird, which splits IPv4 and IPv6
+ support into separate binaries. See also the bird2 package for the newer
+ branch which integrates support for both IP protocols in a single binary.
+ 
+ This is a BIRD lightweight command-line client. It is used to send commands to BIRD,
+ commands can perform simple actions such as enabling/disabling of
+ protocols, telling BIRD to show various information, telling it to show
+ a routing table filtered by a filter, or asking BIRD to reconfigure.
+ 
+
+Package: bird1cl-ipv6
+Version: 1.6.8-2
+Depends: libc, bird1-ipv6
+Conflicts: birdcl6
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 7891
+Filename: bird1cl-ipv6_1.6.8-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 9039
+SHA256sum: 07ff81206328d2d6556a3d31c038f626affb0dea012c093d83837402d2934b6e
+Description:  BIRD is an internet routing daemon which manages TCP/IP routing tables
+ with support of modern routing protocols, easy to use configuration
+ interface and powerful route filtering language. It is lightweight and
+ efficient and therefore appropriate for small embedded routers.
+ 
+ This packages the legacy v1.6 branch of Bird, which splits IPv4 and IPv6
+ support into separate binaries. See also the bird2 package for the newer
+ branch which integrates support for both IP protocols in a single binary.
+ 
+ This is a BIRD lightweight command-line client. It is used to send commands to BIRD,
+ commands can perform simple actions such as enabling/disabling of
+ protocols, telling BIRD to show various information, telling it to show
+ a routing table filtered by a filter, or asking BIRD to reconfigure.
+ 
+
+Package: bird2
+Version: 2.0.8-2
+Depends: libc, libpthread
+Conflicts: bird1-ipv4, bird1-ipv6, bird4, bird6
+License: GPL-2.0-or-later
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 314013
+Filename: bird2_2.0.8-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 314883
+SHA256sum: 03dd219e9fd65b098eedfd176bee34ffe088e2cbd1bda868ac46d50ef8f2c4d2
+Description:  BIRD is an internet routing daemon which manages TCP/IP routing tables
+ with support of modern routing protocols, easy to use configuration
+ interface and powerful route filtering language. It is lightweight and
+ efficient and therefore appropriate for small embedded routers.
+ 
+ 
+ BIRD supports OSPFv2, RIPv2, Babel and BGP protocols for IPv4 and
+ OSPFv3, RIPng, Babel and BGP protocols for IPv6.
+ 
+ In BGP, BIRD supports communities, multiprotocol extensions, MD5
+ authentication, 32bit AS numbers and could act as a route server or a
+ route reflector. BIRD also supports multiple RIBs, multiple kernel
+ routing tables and redistribution between the protocols with a powerful
+ configuration syntax.
+ 
+ This is the 2.0 branch of Bird which integrates support for IPv4 and IPv6
+ into a single branch, and also adds support for the Babel routing protocol.
+
+Package: bird2c
+Version: 2.0.8-2
+Depends: libc, bird2, libreadline8, libncurses6
+Conflicts: bird1c-ipv4, bird1c-ipv6, birdc4, birdc6
+License: GPL-2.0-or-later
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 8467
+Filename: bird2c_2.0.8-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 9572
+SHA256sum: fa08b26bff1ad18e24af75f35ea0cf31c22199b44441d468404784cf2beae43b
+Description:  BIRD is an internet routing daemon which manages TCP/IP routing tables
+ with support of modern routing protocols, easy to use configuration
+ interface and powerful route filtering language. It is lightweight and
+ efficient and therefore appropriate for small embedded routers.
+ 
+ 
+ This is a BIRD command-line client. It is used to send commands to BIRD,
+ commands can perform simple actions such as enabling/disabling of
+ protocols, telling BIRD to show various information, telling it to show
+ a routing table filtered by a filter, or asking BIRD to reconfigure.
+ 
+ Unless you can't afford dependency on ncurses and readline, you
+ should install BIRD command-line client together with BIRD.
+
+Package: bird2cl
+Version: 2.0.8-2
+Depends: libc, bird2
+Conflicts: bird1cl-ipv4, bird1cl-ipv6, birdcl4, birdcl6
+License: GPL-2.0-or-later
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 7186
+Filename: bird2cl_2.0.8-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 8222
+SHA256sum: 53a9180f7e81efab9fb3676b1329baba1cfbbb25dcc79dc9ed5807a6e3546ecf
+Description:  BIRD is an internet routing daemon which manages TCP/IP routing tables
+ with support of modern routing protocols, easy to use configuration
+ interface and powerful route filtering language. It is lightweight and
+ efficient and therefore appropriate for small embedded routers.
+ 
+ 
+ This is a BIRD lightweight command-line client. It is used to send commands
+ to BIRD, commands can perform simple actions such as enabling/disabling of
+ protocols, telling BIRD to show various information, telling it to show
+ a routing table filtered by a filter, or asking BIRD to reconfigure.
+
+Package: bmx6-json
+Version: r2018051214-2
+Depends: libc, bmx6, libjson-c5
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 6404
+Filename: bmx6-json_r2018051214-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 7199
+SHA256sum: 7b1f976b232e677adbbcd71f71974565e8f6c3828edd3e817fee85d6f18b6f7a
+Description:  json plugin based on json-c
+
+Package: bmx6-sms
+Version: r2018051214-2
+Depends: libc, bmx6
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 4857
+Filename: bmx6-sms_r2018051214-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 5564
+SHA256sum: f71d69b2c05f30c53a893485fda0177a55420b5a1eafbb1bb1e0b2fe76eeaeb2
+Description:  sms plugin
+
+Package: bmx6-table
+Version: r2018051214-2
+Depends: libc, bmx6
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 8454
+Filename: bmx6-table_r2018051214-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 9161
+SHA256sum: a1fe86c271a1788ed75c6df1b598f7f8f93e61de924143d8c4ed8d6b59c90a02
+Description:  bmx6 table plugin to automatic announce routing-table routes via ip6ip tunnels
+
+Package: bmx6-uci-config
+Version: r2018051214-2
+Depends: libc, bmx6, libuci20130104
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 8316
+Filename: bmx6-uci-config_r2018051214-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 9150
+SHA256sum: 320ec079b6ba976d7b1393b78937dc3ff16b3d45771e95a584e13533e5a15367
+Description:  configuration plugin based on uci (recommended!)
+
+Package: bmx6
+Version: r2018051214-2
+Depends: libc, kmod-ip6-tunnel, kmod-iptunnel6, kmod-tun
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 138919
+Filename: bmx6_r2018051214-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 139625
+SHA256sum: c46756350b3fd86fa6f7b0c8a659f61772086adf998b25bca24a9ce7b546064b
+Description:  BMX6 layer 3 routing daemon supporting IPv4, IPv6, and IPv4 over IPv6
+
+Package: bmx7-iwinfo
+Version: 7.1.1-4
+Depends: libc, bmx7, libiwinfo20210430
+License: GPL-2.0-or-later
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 3889
+Filename: bmx7-iwinfo_7.1.1-4_arm_cortex-a15_neon-vfpv4.ipk
+Size: 4659
+SHA256sum: 5b50bb31011e48a216ca061510fea11ab49201a38bbb6dcfc98267d16dfe6b4f
+Description:  link characteristics plugin via libiwinfo (recommended!)
+
+Package: bmx7-json
+Version: 7.1.1-4
+Depends: libc, bmx7, libjson-c5
+License: GPL-2.0-or-later
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 7486
+Filename: bmx7-json_7.1.1-4_arm_cortex-a15_neon-vfpv4.ipk
+Size: 8299
+SHA256sum: 59f39a703a1c2d0064151656e8d994a01cb84b1f73e4cb96124f4a989bd404c5
+Description:  json plugin based on json-c
+
+Package: bmx7-sms
+Version: 7.1.1-4
+Depends: libc, bmx7
+License: GPL-2.0-or-later
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 5311
+Filename: bmx7-sms_7.1.1-4_arm_cortex-a15_neon-vfpv4.ipk
+Size: 6058
+SHA256sum: ca8ddc0ea7ed43a99b7e632159e5304b0b7ffa2a5b31e944c6b35d92906db1db
+Description:  sms plugin
+
+Package: bmx7-table
+Version: 7.1.1-4
+Depends: libc, bmx7, bmx7-tun
+License: GPL-2.0-or-later
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 9523
+Filename: bmx7-table_7.1.1-4_arm_cortex-a15_neon-vfpv4.ipk
+Size: 10271
+SHA256sum: 19eaf4a67a3b6961e4756bcb5b724478388ee606be1251bae57ed103fc440592
+Description:  plugin to announce routes from tables via tunnels
+
+Package: bmx7-topology
+Version: 7.1.1-4
+Depends: libc, bmx7
+License: GPL-2.0-or-later
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 4945
+Filename: bmx7-topology_7.1.1-4_arm_cortex-a15_neon-vfpv4.ipk
+Size: 5682
+SHA256sum: 0c615d8db12337b29efc6bab02d62f6a3ff2c318c7c13b609379a53e96c48d50
+Description:  topology plugin
+
+Package: bmx7-tun
+Version: 7.1.1-4
+Depends: libc, bmx7, kmod-ip6-tunnel, kmod-iptunnel6, kmod-tun
+License: GPL-2.0-or-later
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 25504
+Filename: bmx7-tun_7.1.1-4_arm_cortex-a15_neon-vfpv4.ipk
+Size: 26148
+SHA256sum: cda635dda84cf0f537ca32d017d2f9638117634aa935ccfdf02b31263cac0e21
+Description:  ipip-based tunnel plugin (recommended!)
+
+Package: bmx7-uci-config
+Version: 7.1.1-4
+Depends: libc, bmx7, libuci20130104
+License: GPL-2.0-or-later
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 8005
+Filename: bmx7-uci-config_7.1.1-4_arm_cortex-a15_neon-vfpv4.ipk
+Size: 8856
+SHA256sum: 328cfc0b993cfc7af8364901de6483864bca786cc0f7ae9e6ec4fefc7591375d
+Description:  configuration plugin based on uci (recommended!)
+
+Package: bmx7
+Version: 7.1.1-4
+Depends: libc, zlib, libmbedtls12, libiwinfo20210430
+License: GPL-2.0-or-later
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 170442
+Filename: bmx7_7.1.1-4_arm_cortex-a15_neon-vfpv4.ipk
+Size: 171068
+SHA256sum: a50f5cbddf3ec6a0a68afa8d5222204c4a11c61f92fef7ef4794c271e9051f64
+Description:  BMX7 routing daemon supporting securely-entrusted IPv6 (and IPv4in6) routing
+
+Package: cjdns-tests
+Version: v21-3
+Depends: libc, libpthread, librt
+License: GPL-3.0-or-later
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 345870
+Filename: cjdns-tests_v21-3_arm_cortex-a15_neon-vfpv4.ipk
+Size: 345302
+SHA256sum: 83ef3e3eb71895b833894ded781700f84f05dc07952e97cb985953b2b234db65
+Description:  cjdns test cases
+
+Package: cjdns
+Version: v21-3
+Depends: libc, kmod-tun, libnl-tiny1, libpthread, librt, libuci-lua, lua-bencode, dkjson, luasocket, lua-sha2
+License: GPL-3.0-or-later
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 404865
+Filename: cjdns_v21-3_arm_cortex-a15_neon-vfpv4.ipk
+Size: 404246
+SHA256sum: 4fe693e2860bfc206bbdc2a2ed04864e63760ffcc72f31bf6c5f4fade878165f
+Description:  Cjdns implements an encrypted IPv6 network using public-key cryptography for address allocation and a distributed hash table for routing. This provides near-zero-configuration networking, and prevents many of the security and scalability issues that plague existing networks.
+
+Package: hnet-full-l2tp
+Version: 2018-12-21-c4376661-1
+Depends: libc, hnetd-nossl, luci-app-hnet, ip-full, kmod-l2tp-eth, babeld, ohybridproxy, zonestitcher, miniupnpd, minimalist-pcproxy
+License: GPL-2.0-only
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 545
+Filename: hnet-full-l2tp_2018-12-21-c4376661-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 1401
+SHA256sum: 99760cc57c2978b63721de3dcb5cd36a7425f074a38516a67db30be17a9cac3f
+Description:  HNCP Homenet metapackage (w/ L2TP)
+
+Package: hnet-full-secure
+Version: 2018-12-21-c4376661-1
+Depends: libc, hnetd-openssl, luci-app-hnet, ip, babeld, ohybridproxy, zonestitcher, miniupnpd, minimalist-pcproxy
+License: GPL-2.0-only
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 97
+Filename: hnet-full-secure_2018-12-21-c4376661-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 939
+SHA256sum: 66d49df6b3742ff5d95fe43c5825326f1f8606b935a753140e45f9e5edf2c126
+Description:  HNCP Homenet metapackage (w/ SSL)
+
+Package: hnet-full
+Version: 2018-12-21-c4376661-1
+Depends: libc, hnetd-nossl, luci-app-hnet, ip, babeld, ohybridproxy, zonestitcher, miniupnpd, minimalist-pcproxy
+License: GPL-2.0-only
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 97
+Filename: hnet-full_2018-12-21-c4376661-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 931
+SHA256sum: ba50b44022959388d133d89dc54caea04db324cd86c74d76ed80039a40432185
+Description:  HNCP Homenet metapackage
+
+Package: hnetd-nossl
+Version: 2018-12-21-c4376661-1
+Depends: libc, odhcpd, odhcp6c, netifd
+License: GPL-2.0-only
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 92751
+Filename: hnetd-nossl_2018-12-21-c4376661-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 93828
+SHA256sum: 05f6f2957085e5e7b1f4942d7f91dd428bf8c4918cbcedea006bdd61b8c7694f
+Description:  This package provides a daemon which implementats distributed prefix assignment
+ and service discovery for a home network consisting of multiple routers
+ connected to multiple service providers. It provides a netifd protocol "hnet"
+ for use in /etc/config/network.
+
+Package: hnetd-openssl
+Version: 2018-12-21-c4376661-1
+Depends: libc, odhcpd, odhcp6c, netifd, libopenssl1.1
+License: GPL-2.0-only
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 102342
+Filename: hnetd-openssl_2018-12-21-c4376661-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 103371
+SHA256sum: 0895aeb617e2e5bc765d22aeb66be68917d5f752e65057add943d926493d5c9f
+Description:  This package provides a daemon which implementats distributed prefix assignment
+ and service discovery for a home network consisting of multiple routers
+ connected to multiple service providers. It provides a netifd protocol "hnet"
+ for use in /etc/config/network.
+
+Package: luci-app-bird1-ipv4
+Version: 0.3-1
+Depends: libc, bird1-ipv4-uci, luci-base
+License: GPL-3.0+
+Section: luci
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 7419
+Filename: luci-app-bird1-ipv4_0.3-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 8223
+SHA256sum: d7c43cc26bb2ddcf5bbdf09ff54f54c846c6dae8d327b496ca5e5d0897e19775
+Description:  bird4 application for LuCI
+
+Package: luci-app-bird1-ipv6
+Version: 0.3-1
+Depends: libc, bird1-ipv6-uci, luci-base
+License: GPL-3.0+
+Section: luci
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 7464
+Filename: luci-app-bird1-ipv6_0.3-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 8264
+SHA256sum: 8fbf7c3932180d25950d808c45dacaa51d0b1defd2c6defb4fe6c7d43d5ed7d6
+Description:  bird6 application for LuCI
+
+Package: luci-app-bmx6
+Version: 6
+Depends: libc, luci-lib-json, luci-base, luci-lib-httpclient, bmx6, luci-lib-jquery-1-4, luci-lib-dracula
+License: GPL-2.0+
+Section: luci
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 30302
+Filename: luci-app-bmx6_6_arm_cortex-a15_neon-vfpv4.ipk
+Size: 31129
+SHA256sum: 7286532949055b17b624d5c0fa088a9c57150db194ec6dedd3c7c2fa86a1591e
+Description:  bmx6 web application (status and configuration) for LuCi web interface
+
+Package: luci-app-cjdns
+Version: 1.3-8
+Depends: libc, cjdns, luci-compat, luci-base
+License: GPL-3.0-or-later
+Section: luci
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 5600
+Filename: luci-app-cjdns_1.3-8_arm_cortex-a15_neon-vfpv4.ipk
+Size: 6497
+SHA256sum: 43e30b2a5ad4acb50f9e5cf82413e7bb9a0a24cf0e9a273c725b7747d77231a7
+Description:  Cjdns implements an encrypted IPv6 network using public-key cryptography for address allocation and a distributed hash table for routing. This provides near-zero-configuration networking, and prevents many of the security and scalability issues that plague existing networks.
+
+Package: luci-app-hnet
+Version: 2018-12-21-c4376661-1
+Depends: libc
+License: GPL-2.0-only
+Section: luci
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 56777
+Filename: luci-app-hnet_2018-12-21-c4376661-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 57625
+SHA256sum: 5dd25567d7be4d9f5d0785bdf389d8a15e5781ab6e82a5824fa867cd19f08c10
+Description:  HNCP Homenet configuration and visualization
+
+Package: luci-lib-dracula
+Version: 6
+Depends: libc
+License: GPL-2.0+
+Section: luci
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 23282
+Filename: luci-lib-dracula_6_arm_cortex-a15_neon-vfpv4.ipk
+Size: 24006
+SHA256sum: 0be6dd874f19133ea0b5709821ba49a59d78f92330737c3cc53127f6ca9bfdca
+Description:  dracula graph javascript library
+
+Package: luci-lib-jquery-1-4
+Version: 6
+Depends: libc
+License: GPL-2.0+
+Section: luci
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 24819
+Filename: luci-lib-jquery-1-4_6_arm_cortex-a15_neon-vfpv4.ipk
+Size: 25558
+SHA256sum: 1cb22534675f6168b6a91a1f7b450c86d79ab909bf72f19555642331cf2e9335
+Description:  minified javascript jQuery 1.4 library
+
+Package: mcproxy
+Version: 2017-08-24-93b5ace42268160ebbfff4c61818fb15fa2d9b99-3
+Depends: libc, libpthread, libstdcpp6
+License: GPL-2.0+
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 113009
+Filename: mcproxy_2017-08-24-93b5ace42268160ebbfff4c61818fb15fa2d9b99-3_arm_cortex-a15_neon-vfpv4.ipk
+Size: 113796
+SHA256sum: 87691186ff2c8190a6176ef727d44f01aad2280fc467492eda9c2d80006de9c5
+Description:  mcproxy is a free & open source implementation of the IGMP/MLD proxy function (see  RFC 4605) for Linux systems.
+ It operates on the kernel tables for multicast routing and allows for multiple instantiations,
+ as well as dynamically changing downstream interfaces.
+
+Package: mesh11sd
+Version: 1.0.0-1
+Depends: libc
+License: GPL-2.0-or-later
+Section: net
+Architecture: all
+Installed-Size: 2913
+Filename: mesh11sd_1.0.0-1_all.ipk
+Size: 4130
+SHA256sum: e89194a40b5533e052814f030afbb41fa50b13c45aa797ae76824780f69d1c7f
+Description:  Mesh11sd is a dynamic parameter configuration daemon for 802.11s mesh networks.
+ It was originally designed to leverage 802.11s mesh networking at Captive Portal venues.
+ This is the open source version and it enables easy and automated mesh network operation with multiple mesh nodes.
+ It allows all mesh parameters supported by the wireless driver to be set in the uci config file.
+ Settings take effect immediately without having to restart the wireless network.
+ Default settings give rapid and reliable layer 2 mesh convergence.
+ Without mesh11sd, many mesh parameters cannot be set in the uci wireless config file as the mesh interface must be up before the parameters can be set.
+ Some of those that are supported, would fail to be implemented when the network is (re)started resulting in errors or dropped nodes.
+ The mesh11sd daemon dynamically checks configured parameters and sets them as required.
+ This version does not require a Captive Portal to be running.
+
+Package: minimalist-pcproxy
+Version: 2015-01-12-2d6d1b0b0a3b79a9b4a9b0a7606a84600a967bcb-2
+Depends: libc, libubox20210516
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 5994
+Filename: minimalist-pcproxy_2015-01-12-2d6d1b0b0a3b79a9b4a9b0a7606a84600a967bcb-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 7041
+SHA256sum: 38f48b48ef53322ec96b087e4220ea9f847558c2ff591710a37e923d7460e657
+Description:  This package contains a daemon which can be used to forward
+ PCP (Port Control Protocol - RFC6887) requests requests to PCP remote servers.
+ 
+ In and of itself, it is not very useful, but combined with hnetd+miniupnpd
+ it allows for control of NAT forwarding and firewall pinholes from multiple
+ hops away.
+
+Package: mrd6
+Version: 2013-11-30-c805eb33-7
+Depends: libc, libstdcpp6
+License: GPL-2.0-or-later
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 253818
+Filename: mrd6_2013-11-30-c805eb33-7_arm_cortex-a15_neon-vfpv4.ipk
+Size: 254639
+SHA256sum: f202ca29bb9a74dacfb39833f78a9804840e7ce9e4bd2104cb02f8240b95ad29
+Description:  Multicast is becoming a major component in next generation networks, used 
+ in several scenarios, from video broadcasting to multimedia conferencing. 
+ In order to be implemented, new technology needs supporting hardware and 
+ software across a set of devices and systems. MRD6 is an implementation of 
+ a modular IPv6 Multicast Routing Framework for the Linux operating system 
+ and provides MLDv2 (as well as MLDv1), PIM-SM and MBGP support.
+
+Package: naywatch
+Version: 1-6
+Depends: libc, owipcalc
+License: GPL-2.0-only
+Section: utils
+Architecture: all
+Installed-Size: 1931
+Filename: naywatch_1-6_all.ipk
+Size: 2837
+SHA256sum: f80f2ca9f229db152a040c0f82f291cc9cd45f31321bab707ec0d5a353f92831
+Description:  Reboots or triggers watchdog if no link-local neighbor is available.
+ 
+ Important:
+ Be careful when you do a sysupgrade. Stop naywatch first, and make
+ sure procd took control again of the watchdog.
+ You can do this using 'ubus call system watchdog'.  Status should be "running".
+
+Package: ndppd
+Version: 0.2.5-1
+Depends: libc, uclibcxx
+License: GPL-3.0+
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 29839
+Filename: ndppd_0.2.5-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 30803
+SHA256sum: 0464283a05b11b3661fee28fd006a9da5c99cb2e49ae8ec8997d17af6a14a06e
+Description:  ndppd, or NDP Proxy Daemon, is a daemon that proxies NDP (Neighbor Discovery
+ Protocol) messages between interfaces.  ndppd currently only supports Neighbor
+ Solicitation Messages and Neighbor Advertisement Messages.
+ 
+ The ndp_proxy provided by Linux doesn't support listing proxies, and only hosts
+ are supported.  No subnets.  ndppd solves this by listening for Neighbor
+ Solicitation messages on an interface, then query the internal interfaces for
+ that target IP before finally sending a Neighbor Advertisement message.
+
+Package: nodogsplash
+Version: 5.0.0-1
+Depends: libc, libpthread, iptables-mod-ipopt, libmicrohttpd-no-ssl
+Conflicts: nodogsplash2
+License: GPL-2.0+
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 45676
+Filename: nodogsplash_5.0.0-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 46693
+SHA256sum: fa15a4c925314e9da960f0c9f7f67f44057638b04759addc13b53c013eefb331
+Description:  Nodogsplash is a Captive Portal that offers a simple way to
+ provide restricted access to the Internet by showing a splash
+ page to the user before Internet access is granted.
+ It also incorporates an API that allows the creation of
+ sophisticated authentication applications.
+
+Package: ohybridproxy
+Version: 2020-05-22-0dfef1eb-3
+Depends: libc, libubox20210516, mdnsd
+License: GPL-2.0-only
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 10206
+Filename: ohybridproxy_2020-05-22-0dfef1eb-3_arm_cortex-a15_neon-vfpv4.ipk
+Size: 11070
+SHA256sum: 900fd5ae2c13454f6d9a10d1ca4fd047b82faaeacfdda526bdd62bc0e3ceb82d
+Description:  This package provides a statically configured daemon for translating DNS
+ requests to Multicast DNS and back again.
+
+Package: olsrd-mod-arprefresh
+Version: 2021-06-12-4973feb5-7
+Depends: libc, olsrd
+License: BSD-3-Clause
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 1921
+Filename: olsrd-mod-arprefresh_2021-06-12-4973feb5-7_arm_cortex-a15_neon-vfpv4.ipk
+Size: 2703
+SHA256sum: a07e1d8492a746a3e5e88c43e65ce871eaa8cc0def408f98451716768fef7e34
+Description:  Kernel ARP cache refresh plugin
+
+Package: olsrd-mod-bmf
+Version: 2021-06-12-4973feb5-7
+Depends: libc, olsrd, kmod-tun
+License: BSD-3-Clause
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 11766
+Filename: olsrd-mod-bmf_2021-06-12-4973feb5-7_arm_cortex-a15_neon-vfpv4.ipk
+Size: 12561
+SHA256sum: 3a8e33c0828246684aaff68c572a014f999c24585d8feb49bdb5e0d66f81ce29
+Description:  Basic multicast forwarding plugin
+
+Package: olsrd-mod-dot-draw
+Version: 2021-06-12-4973feb5-7
+Depends: libc, olsrd
+License: BSD-3-Clause
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 3668
+Filename: olsrd-mod-dot-draw_2021-06-12-4973feb5-7_arm_cortex-a15_neon-vfpv4.ipk
+Size: 4420
+SHA256sum: cbf922d387456db262f2f197c441291ac5ca750f0fca1cbbb78a754e7b86e277
+Description:  Dot topology information plugin
+
+Package: olsrd-mod-dyn-gw-plain
+Version: 2021-06-12-4973feb5-7
+Depends: libc, olsrd
+License: BSD-3-Clause
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 2196
+Filename: olsrd-mod-dyn-gw-plain_2021-06-12-4973feb5-7_arm_cortex-a15_neon-vfpv4.ipk
+Size: 2989
+SHA256sum: 0f92ec0ba2c97b83599b57d6e3b41d8c250cff4a33e118e7ef503b4b0b572282
+Description:  Dynamic internet gateway plain plugin
+
+Package: olsrd-mod-dyn-gw
+Version: 2021-06-12-4973feb5-7
+Depends: libc, olsrd
+License: BSD-3-Clause
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 3866
+Filename: olsrd-mod-dyn-gw_2021-06-12-4973feb5-7_arm_cortex-a15_neon-vfpv4.ipk
+Size: 4612
+SHA256sum: 2b5d575848b5319ab88f1794d0e40987fc4455e7cfff51da368ff945d1787233
+Description:  Dynamic internet gateway plugin
+
+Package: olsrd-mod-filtergw
+Version: 2021-06-12-4973feb5-7
+Depends: libc, olsrd
+License: BSD-3-Clause
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 2402
+Filename: olsrd-mod-filtergw_2021-06-12-4973feb5-7_arm_cortex-a15_neon-vfpv4.ipk
+Size: 3147
+SHA256sum: 7a314537d9286f8a4f0be52dddcffd5d626518b28bf325f63540f21f5f6987d3
+Description:  Filter Gateway plugin
+
+Package: olsrd-mod-httpinfo
+Version: 2021-06-12-4973feb5-7
+Depends: libc, olsrd
+License: BSD-3-Clause
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 32018
+Filename: olsrd-mod-httpinfo_2021-06-12-4973feb5-7_arm_cortex-a15_neon-vfpv4.ipk
+Size: 32872
+SHA256sum: 75bfce25a4aa1c3c68b0ec4a8c83912df5087a53c665f2e1416b4cb80ab54dd4
+Description:  Small informative web server plugin
+
+Package: olsrd-mod-jsoninfo
+Version: 2021-06-12-4973feb5-7
+Depends: libc, olsrd
+License: BSD-3-Clause
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 23994
+Filename: olsrd-mod-jsoninfo_2021-06-12-4973feb5-7_arm_cortex-a15_neon-vfpv4.ipk
+Size: 24747
+SHA256sum: 10cac6036e5f4c2373a3bb60f6d1794b23dddb5776a98b1c80de7fb45470b297
+Description:  Small informative plugin with JSON output
+
+Package: olsrd-mod-mdns
+Version: 2021-06-12-4973feb5-7
+Depends: libc, olsrd
+License: BSD-3-Clause
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 8791
+Filename: olsrd-mod-mdns_2021-06-12-4973feb5-7_arm_cortex-a15_neon-vfpv4.ipk
+Size: 9582
+SHA256sum: cb6c20f43532a292dc0e6f01ebc21e09c6602dba55b78d4835a6ddc90a6848a0
+Description:  MDNS/Zeroconf/Bonjour packet distribution 
+
+Package: olsrd-mod-nameservice
+Version: 2021-06-12-4973feb5-7
+Depends: libc, olsrd
+License: BSD-3-Clause
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 10577
+Filename: olsrd-mod-nameservice_2021-06-12-4973feb5-7_arm_cortex-a15_neon-vfpv4.ipk
+Size: 11311
+SHA256sum: 6ba1a1fec121983545abde83cbbc45d547e722a6f4f67b281ff730928606290c
+Description:  Lightweight hostname resolver plugin
+
+Package: olsrd-mod-netjson
+Version: 2021-06-12-4973feb5-7
+Depends: libc, olsrd
+License: BSD-3-Clause
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 13418
+Filename: olsrd-mod-netjson_2021-06-12-4973feb5-7_arm_cortex-a15_neon-vfpv4.ipk
+Size: 14150
+SHA256sum: 81ec3200957c8b3a968e5b1d73b4e9093dc1b7cbd5ad7d08e40f9cc44458a7d2
+Description:  netjson plugin with JSON output
+
+Package: olsrd-mod-p2pd
+Version: 2021-06-12-4973feb5-7
+Depends: libc, olsrd
+License: BSD-3-Clause
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 8070
+Filename: olsrd-mod-p2pd_2021-06-12-4973feb5-7_arm_cortex-a15_neon-vfpv4.ipk
+Size: 8846
+SHA256sum: 747cb1bad33c73eaacf0ad5bc19a69ef42d34fb84afb7b88fb612168790ca1b3
+Description:  Peer to Peer Discovery plugin
+
+Package: olsrd-mod-pgraph
+Version: 2021-06-12-4973feb5-7
+Depends: libc, olsrd
+License: BSD-3-Clause
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 2763
+Filename: olsrd-mod-pgraph_2021-06-12-4973feb5-7_arm_cortex-a15_neon-vfpv4.ipk
+Size: 3520
+SHA256sum: 9b99922289981c25e097a9017c1f19e8b0cde9f3785850493b351310360d1755
+Description:  output network topology for pgraph
+
+Package: olsrd-mod-pud
+Version: 2021-06-12-4973feb5-7
+Depends: libc, olsrd, libgps29
+License: BSD-3-Clause
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 57220
+Filename: olsrd-mod-pud_2021-06-12-4973feb5-7_arm_cortex-a15_neon-vfpv4.ipk
+Size: 57883
+SHA256sum: cf16d0d5ea0ba7a22830480bf1d13c8d3ad4e039bb3994ba396919afeaf72099
+Description:  Position Update Distribution plugin
+
+Package: olsrd-mod-quagga
+Version: 2021-06-12-4973feb5-7
+Depends: libc, olsrd
+License: BSD-3-Clause
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 5973
+Filename: olsrd-mod-quagga_2021-06-12-4973feb5-7_arm_cortex-a15_neon-vfpv4.ipk
+Size: 6727
+SHA256sum: f2ecaef182c887d9b571766e35789ab4f0480be0892c9923b2660a823106a8d5
+Description:  Quagga plugin
+
+Package: olsrd-mod-secure
+Version: 2021-06-12-4973feb5-7
+Depends: libc, olsrd
+License: BSD-3-Clause
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 10251
+Filename: olsrd-mod-secure_2021-06-12-4973feb5-7_arm_cortex-a15_neon-vfpv4.ipk
+Size: 11078
+SHA256sum: 7df696dce529038a98e5ad5ba6737783c9e2cadfa8b56a02459d46d5f3fcbd87
+Description:  Message signing plugin to secure routing domain
+
+Package: olsrd-mod-sgwdynspeed
+Version: 2021-06-12-4973feb5-7
+Depends: libc, olsrd
+License: BSD-3-Clause
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 4176
+Filename: olsrd-mod-sgwdynspeed_2021-06-12-4973feb5-7_arm_cortex-a15_neon-vfpv4.ipk
+Size: 4980
+SHA256sum: 7d1420a3312c859dd17829acb47e50f0eae67a8a4c80bbff6822d6b198e05b4f
+Description:  Smart Gateway dynamic speed plugin
+
+Package: olsrd-mod-txtinfo
+Version: 2021-06-12-4973feb5-7
+Depends: libc, olsrd
+License: BSD-3-Clause
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 15013
+Filename: olsrd-mod-txtinfo_2021-06-12-4973feb5-7_arm_cortex-a15_neon-vfpv4.ipk
+Size: 15752
+SHA256sum: 16c56dc52b3d6b683c4c4eccce1503435d8987de87e3d40ed77ad733e0948258
+Description:  Small informative web server plugin
+
+Package: olsrd-mod-watchdog
+Version: 2021-06-12-4973feb5-7
+Depends: libc, olsrd
+License: BSD-3-Clause
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 1532
+Filename: olsrd-mod-watchdog_2021-06-12-4973feb5-7_arm_cortex-a15_neon-vfpv4.ipk
+Size: 2300
+SHA256sum: acda0070bf717eabeaca36bcedaf9bbf36157d5678ddaa5c4984eea6caf1f6ee
+Description:  Watchdog plugin
+
+Package: olsrd-utils
+Version: 2021-06-12-4973feb5-7
+Depends: libc, olsrd
+License: BSD-3-Clause
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 1179
+Filename: olsrd-utils_2021-06-12-4973feb5-7_arm_cortex-a15_neon-vfpv4.ipk
+Size: 1934
+SHA256sum: 948eadc4d544ed68a0030ea7866a286c8f399a3b5d9f8318002ab72b62aa350b
+Description:  Utils for OLSRD
+
+Package: olsrd
+Version: 2021-06-12-4973feb5-7
+Depends: libc, libpthread, libubus20210630
+License: BSD-3-Clause
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 138700
+Filename: olsrd_2021-06-12-4973feb5-7_arm_cortex-a15_neon-vfpv4.ipk
+Size: 139485
+SHA256sum: a742429db14918bad27d22f72c62e5427bb072d903bfec453619ea30e622e695
+Description:  OLSR (Optimized Link State Routing) daemon
+
+Package: oonf-dlep-proxy
+Version: v0.15.1
+Depends: libc, librt, libnl-tiny1, libuci20130104, oonf-init-scripts
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 109843
+Filename: oonf-dlep-proxy_v0.15.1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 110723
+SHA256sum: bd33f0974141429edf239d79d8f5b0a4fb7787a16fcec3499363837f5c8b1a20
+Description:  Build DLEP Radio+Router Agent
+
+Package: oonf-dlep-radio
+Version: 0.15.1-29
+Depends: libc, librt, libnl-tiny1, libuci20130104, oonf-init-scripts
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 106203
+Filename: oonf-dlep-radio_0.15.1-29_arm_cortex-a15_neon-vfpv4.ipk
+Size: 106993
+SHA256sum: 1674ff814ade4ffcfdaa84b5049e96a3af33300c76a20e543f43ac6a18ca9006
+Description:  Build DLEP Radio Agent
+
+Package: oonf-init-scripts
+Version: 0.9.1-r3
+Depends: libc
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 1385
+Filename: oonf-init-scripts_0.9.1-r3_arm_cortex-a15_neon-vfpv4.ipk
+Size: 2133
+SHA256sum: 3b8c0522579e55150004603afc87f7aa6bbe0dc7cb6e732da7d0a5fb40111cad
+Description:  Common OONF startup scripts
+
+Package: oonf-olsrd2
+Version: v0.15.1
+Depends: libc, librt, libnl-tiny1, libuci20130104, oonf-init-scripts
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 167591
+Filename: oonf-olsrd2_v0.15.1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 168425
+SHA256sum: a8afa72e6081d41f91cf2fa85b836324048d3be6550cc3093096cb6bd091e26a
+Description:  Build Olsrd V2 Routing Agent
+
+Package: opennds
+Version: 9.7.0-1
+Depends: libc, libpthread, iptables-mod-ipopt, libmicrohttpd-no-ssl
+Conflicts: nodogsplash, nodogsplash2
+License: GPL-2.0-or-later
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 140788
+Filename: opennds_9.7.0-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 141133
+SHA256sum: b726dddfc050f93b5329d73e54d721b1c1147ca655cfdecac09c35d217bea321
+Description:  openNDS is a Captive Portal solution that offers an instant way to provide restricted access to the Internet.
+ With little or no configuration, a dynamically generated and adaptive splash page sequence is automatically served.
+ Both client driven Captive Portal Detection (CPD) and gateway driven Captive Portal Identification (CPI - RFC 8910 and RFC 8908) are supported.
+ Internet access is granted by either a click to continue button, or after credential verification as a result of filling in a login form.
+ The package incorporates the FAS API allowing many flexible customisation options.
+ The creation of sophisticated third party authentication applications is fully supported.
+ Internet hosted https portals can be implemented with no security errors, to inspire maximum user confidence.
+ This release requires iptables(legacy)
+
+Package: pimbd
+Version: 2018-06-19-dbf4e5913b06e3160f506df15e6a047a403a5f21-2
+Depends: libc, netifd
+License: Apache-2.0
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 80885
+Filename: pimbd_2018-06-19-dbf4e5913b06e3160f506df15e6a047a403a5f21-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 81842
+SHA256sum: de3d290122d9664f338e5e1c8fdeeec6ee87a4f2d2fa8c858f578e42346aa50b
+Description:  This package provides a daemon which implements the Protocol Independent
+ Multicast BIDIR routing protocol. Note that a routing protocol must be 
+ installed and running in order for PIM to function.
+
+Package: prince
+Version: v0.4-2
+Depends: libc, libjson-c5, libpthread
+License: MIT
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 25521
+Filename: prince_v0.4-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 26500
+SHA256sum: 13cb1ae238746a80b06264db8a80c6be87d3a473ec8e6f55c6c9bbaa03647ef9
+Description:  Prince is an open source implementation of the PopRouting Algorithm.
+ It has been developed as a Google Summer of Code Project in collaboration with Freifunk and the University of Trento.
+ 
+ Prince fetches topology data from a Link State routing daemon (OONF, OLSR, OSPF, etc),
+ calculates the betweenness centrality using the topology and then computes the
+ the timers' optimal values using these data. At the end of the computation the timers are pushed back to the routing daemon.
+ Since v0.4 it supports both OONF and OLSRd.
+
+Package: quagga-bgpd
+Version: 1.2.4-2
+Depends: libc, quagga, quagga-libzebra
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 205517
+Filename: quagga-bgpd_1.2.4-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 205679
+SHA256sum: de6c2f07b16680cec1356a84c52542280720b4b3935e6a337d7ca33cdf9957a9
+Description:  BGPv4, BGPv4+, BGPv4- routing engine
+
+Package: quagga-isisd
+Version: 1.2.4-2
+Depends: libc, quagga, quagga-libzebra
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 90704
+Filename: quagga-isisd_1.2.4-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 91284
+SHA256sum: bd85aa8e82ff854ceac2292c55545e06122d110fe5ba14cc2fb9645a74b5017e
+Description:  IS-IS routing engine
+
+Package: quagga-libospf
+Version: 1.2.4-2
+Depends: libc, quagga, quagga-libzebra
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 192555
+Filename: quagga-libospf_1.2.4-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 191411
+SHA256sum: 07d66ed48cf9beff7c3bca1fe6ae6788a51de590e2e5fcb8d7029df7cf6c6708
+Description:  OSPF library
+
+Package: quagga-libzebra
+Version: 1.2.4-2
+Depends: libc, quagga
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 131053
+Filename: quagga-libzebra_1.2.4-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 130608
+SHA256sum: aac242e9b88230e71d1de90396f5e6074d194b19ea5699654ae059e8bdc6aba7
+Description:  zebra library
+
+Package: quagga-ospf6d
+Version: 1.2.4-2
+Depends: libc, quagga, quagga-libospf
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 87864
+Filename: quagga-ospf6d_1.2.4-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 88669
+SHA256sum: d4c55e3600d79d6f20a480353e6f2b9ba128841660ec2cc75e0c2508f5cb05da
+Description:  OSPFv3 routing engine
+
+Package: quagga-ospfd
+Version: 1.2.4-2
+Depends: libc, quagga, quagga-libospf
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 3518
+Filename: quagga-ospfd_1.2.4-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 4287
+SHA256sum: 3c2dce14c2eaacd453436154d4cfa5aa8882e2f07274cea98981782dfb59dc2a
+Description:  OSPFv2 routing engine
+
+Package: quagga-ripd
+Version: 1.2.4-2
+Depends: libc, quagga, quagga-libzebra
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 36160
+Filename: quagga-ripd_1.2.4-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 36862
+SHA256sum: 44ebc0c97917676b73164ee674a085efb564bcb3f29b6ea95ef31d2196ac43d2
+Description:  RIP routing engine
+
+Package: quagga-ripngd
+Version: 1.2.4-2
+Depends: libc, quagga, quagga-libzebra
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 29614
+Filename: quagga-ripngd_1.2.4-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 30321
+SHA256sum: 3adbb001926d36f0fc07b5bbd260aebc7b2406ee49a6940b5ba44fc30eb76d44
+Description:  RIPNG routing engine
+
+Package: quagga-vtysh
+Version: 1.2.4-2
+Depends: libc, quagga, quagga-libzebra, libreadline8, libncurses6
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 124144
+Filename: quagga-vtysh_1.2.4-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 124413
+SHA256sum: f0a4e703381049248d55d559e8569d0f9e44a516593d48629f401396621c270a
+Description:  integrated shell for Quagga routing software
+
+Package: quagga-watchquagga
+Version: 1.2.4-2
+Depends: libc, quagga, quagga-libzebra
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 11235
+Filename: quagga-watchquagga_1.2.4-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 12003
+SHA256sum: fb7464d6b8cef894671aeb9e14c08c88e5556611e1406feb7a5d69b53319dd89
+Description:  Quagga watchdog
+
+Package: quagga-zebra
+Version: 1.2.4-2
+Depends: libc, quagga, quagga-libzebra
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 88934
+Filename: quagga-zebra_1.2.4-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 89316
+SHA256sum: 59470c852c9ab749dd004b017ce630cf5e3fb97d17110b1d9271ed51ace84d62
+Description:  Zebra daemon
+
+Package: quagga
+Version: 1.2.4-2
+Depends: libc, librt
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 2380
+Filename: quagga_1.2.4-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 3202
+SHA256sum: eafbe5256d5eb197066851810d93a776e0486c5bfbbcc5680e5b0cfddab35217
+Description:  A routing software package that provides TCP/IP based routing services
+ with routing protocols support such as RIPv1, RIPv2, RIPng, OSPFv2,
+ OSPFv3, BGP-4, and BGP-4+
+
+Package: vis
+Version: 1440-2
+Depends: libc, libpthread
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 10380
+Filename: vis_1440-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 11201
+SHA256sum: 61b7646bdcec557bfb013931db8db336bcec9f6b2f4ef86957643f1a6a74a0ef
+Description:  visualization server for B.A.T.M.A.N. layer 3
+
+Package: zonestitcher
+Version: 2020-05-22-0dfef1eb-3
+Depends: libc, libubox20210516
+License: GPL-2.0-only
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 8152
+Filename: zonestitcher_2020-05-22-0dfef1eb-3_arm_cortex-a15_neon-vfpv4.ipk
+Size: 9002
+SHA256sum: 73a5aee58fe249d2e681d83a38d0b4dd023b8b4d01a3762274222f30a185c221
+Description:  This package provides a statically configured daemon for translating DNS
+ requests to Multicast DNS and back again.
+

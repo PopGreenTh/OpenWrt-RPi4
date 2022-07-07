@@ -1,0 +1,1348 @@
+Package: node-actions-on-google
+Version: 3.0.0-1
+Depends: libc, node
+License: Apache-2.0
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 10377876
+Filename: node-actions-on-google_3.0.0-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 10295992
+SHA256sum: 4d280cb307ab31efd1c1193495425f6e12bfe9422fcf95bd75653a3a44573203
+Description:  This Actions On Google client library makes it easy to create your apps for the Google Assistant. The client library supports both the Actions SDK webhook and Dialogflow fulfillment.
+
+Package: node-alexa-app
+Version: 4.2.3-4
+Depends: libc, node
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 1147699
+Filename: node-alexa-app_4.2.3-4_arm_cortex-a15_neon-vfpv4.ipk
+Size: 1148024
+SHA256sum: 80d5f6c6bebf44db40c79cce07ef5df4d3a17364ef0ebf860d4a5440b035a038
+Description:  A Node module to simplify the development of Alexa skills (applications.)
+
+Package: node-argon2
+Version: 0.28.5-1
+Depends: libc, node
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 604568
+Filename: node-argon2_0.28.5-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 600566
+SHA256sum: 3e1b4838e23833b6b0b784454eb04f6141abe2dfc5507bda54fffa57792ed419
+Description:  Bindings to the reference Argon2 implementation.
+
+Package: node-ask-sdk
+Version: 2.12.1-1
+Depends: libc, node
+License: Apache-2.0
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 9631725
+Filename: node-ask-sdk_2.12.1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 9611128
+SHA256sum: b4e2995309119fe527a6e087839192be4203f9a40167a7701858125a1aedf018
+Description:  The ASK SDK v2 for Node.js is an open-source Alexa Skill Development Kit. ASK SDK v2 for Node.js makes it easier for you to build highly engaging skills, by allowing you to spend more time on implementing features and less on writing boiler-plate code.
+
+Package: node-authenticate-pam
+Version: 1.0.5-1
+Depends: libc, node, libpam
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 83021
+Filename: node-authenticate-pam_1.0.5-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 83946
+SHA256sum: 78978718a7ceb2e97b2f214d18ee5465b1436dec500e993716757129f5b60d12
+Description:  Asynchronous PAM authentication for Node.js
+
+Package: node-autobahn
+Version: 20.9.2-4
+Depends: libc, node, node-ws
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 721203
+Filename: node-autobahn_20.9.2-4_arm_cortex-a15_neon-vfpv4.ipk
+Size: 718685
+SHA256sum: 6cc2de9e24d5c273bb9c207c4efc67ee4431f4b7cbadc6ff6a1cd25156faed66
+Description:  An implementation of The Web Application Messaging Protocol (WAMP)
+
+Package: node-aws-iot-device-sdk-v2
+Version: 1.8.4-1
+Depends: libc, node, node-aws-crt
+License: Apache-2.0
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 56048
+Filename: node-aws-iot-device-sdk-v2_1.8.4-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 56644
+SHA256sum: 83fbe54e254fc1e058f82e1a5a155e9e7d6b69ddf0f068440c57a1e10ef410e2
+Description:  This SDK is built on the AWS Common Runtime, a collection of libraries (aws-c-common, aws-c-io, aws-c-mqtt, aws-c-http, aws-c-cal ...) written in C to be cross-platform, high-performance, secure, and reliable. The libraries are bound to JS by the awscrt package.
+
+Package: node-aws-iot-device-sdk
+Version: 2.2.12-1
+Depends: libc, node
+License: Apache-2.0
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 687594
+Filename: node-aws-iot-device-sdk_2.2.12-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 686751
+SHA256sum: eabaf1b2eb84bf1991fabe45826a66f9f133ce3f1bc0de145b23563fb7f5fd34
+Description:  The aws-iot-device-sdk.js package allows developers to write JavaScript applications which access the AWS IoT Platform via MQTT or MQTT over the Secure WebSocket Protocol
+
+Package: node-aws-sdk
+Version: 2.1167.0-1
+Depends: libc, node
+License: Apache-2.0
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 9385080
+Filename: node-aws-sdk_2.1167.0-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 9370946
+SHA256sum: a53725392f9e80d3ff8dfb618b197ccff5624f8da8f995be9070ad0306062394
+Description:  The official AWS SDK for JavaScript, available for browsers and mobile devices, or Node.js backends
+
+Package: node-azure-event-hubs
+Version: 5.8.0-1
+Depends: libc, node
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 2049322
+Filename: node-azure-event-hubs_5.8.0-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 2035293
+SHA256sum: ac1c720313ed6ec793752b89702a1de989952852478cba5b7cdb3ab080b39fad
+Description:  Azure Event Hubs service
+
+Package: node-azure-iot-device-amqp
+Version: 1.14.0-1
+Depends: libc, node
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 3881631
+Filename: node-azure-iot-device-amqp_1.14.0-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 3863021
+SHA256sum: 5b6d3cb8d4fbb4f7ea0d93e3d572babacd9c422f83775c23e07ecda3f192a9ff
+Description:  Communicate with Azure IoT Hub from any device over AMQP
+
+Package: node-azure-iot-device-http
+Version: 1.14.0-1
+Depends: libc, node
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 3312470
+Filename: node-azure-iot-device-http_1.14.0-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 3294360
+SHA256sum: 7f2ab7217e7f3fceacacc40b05046243d4414a91a9cd5c128b54c759c7460014
+Description:  Communicate with Azure IoT Hub from any device over HTTP 1.1
+
+Package: node-azure-iot-device-mqtt
+Version: 1.16.0-1
+Depends: libc, node
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 4117550
+Filename: node-azure-iot-device-mqtt_1.16.0-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 4101434
+SHA256sum: 32a0ce807beb8617a309b412eea50c47ffd89efec8e5456f82314d46414bbe6f
+Description:  Communicate with Azure IoT Hub from any device over MQTT
+
+Package: node-azure-iot-device
+Version: 1.18.0-1
+Depends: libc, node
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 3196123
+Filename: node-azure-iot-device_1.18.0-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 3182842
+SHA256sum: 8c13a2d37303a2d8e8cca40f617ec504d8462d03ac8b0317638cfd4882085c7e
+Description:  The core components of the Azure IoT device SDK.
+
+Package: node-azure-iothub
+Version: 1.15.0-1
+Depends: libc, node
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 5728149
+Filename: node-azure-iothub_1.15.0-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 5710745
+SHA256sum: 49e1b9a54076be3f3f142869f8f8116455764740faf5c48441c894282534ce41
+Description:  The Azure IoT Service SDK for Node.js helps you build applications that interact with your devices and manage their identities in your IoT hub
+
+Package: node-bcrypt
+Version: 5.0.1-2
+Depends: libc, node
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 621274
+Filename: node-bcrypt_5.0.1-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 618238
+SHA256sum: 0b2d0f949338015d2b65ea08b68957f8219524566061b49e403905cec6bc1fa7
+Description:  A library to help you hash passwords. You can read about bcrypt in Wikipedia as well as in the following article: How To Safely Store A Password
+
+Package: node-bignum
+Version: 0.13.1-4
+Depends: libc, node
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 115216
+Filename: node-bignum_0.13.1-4_arm_cortex-a15_neon-vfpv4.ipk
+Size: 115959
+SHA256sum: bef289528cf9f84e4705471c99427ada02e0128c77d772877b3444e35164f7d3
+Description:  Arbitrary precision integral arithmetic for Node.js using OpenSSL.
+
+Package: node-binaryjs
+Version: 0.2.1-14
+Depends: libc, node, node-bufferutil, node-utf-8-validate
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 313363
+Filename: node-binaryjs_0.2.1-14_arm_cortex-a15_neon-vfpv4.ipk
+Size: 314402
+SHA256sum: 147e04c7ddfef48cc7afdb7569ba33c1cdd8411268aa2550c2852d075706c275
+Description:  Node binary websocket streaming made easy
+
+Package: node-bleacon
+Version: 0.5.1-11
+Depends: libc, node, node-bignum, node-bleno, node-noble-device
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 38558
+Filename: node-bleacon_0.5.1-11_arm_cortex-a15_neon-vfpv4.ipk
+Size: 39451
+SHA256sum: e4b2ed21862d5e47874c7ebfa23f493f4b7e5b04c82c7bcc94bd7409db7593c1
+Description:  A Node.js library for creating, discovering, and configuring iBeacons
+
+Package: node-bleno
+Version: 0.5.0-4
+Depends: libc, node, node-bluetooth-hci-socket
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 146331
+Filename: node-bleno_0.5.0-4_arm_cortex-a15_neon-vfpv4.ipk
+Size: 147207
+SHA256sum: 579d10ee0be078ef4b8bc98b1f475028b66f100edf570cccb8507a748a1ee378
+Description:  A node.js module for implementing BLE (Bluetooth low energy) peripherals
+
+Package: node-bluetooth-hci-socket
+Version: 0.5.3-4
+Depends: libc, node, node-usb
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 753185
+Filename: node-bluetooth-hci-socket_0.5.3-4_arm_cortex-a15_neon-vfpv4.ipk
+Size: 753607
+SHA256sum: 9e4b9f9e6433f80ecc1950a1bfba5788c77ae13f6a3f86aefd691487730b58b9
+Description:  Bluetooth HCI socket binding for Node.js
+
+Package: node-browserify
+Version: 17.0.0-3
+Depends: libc, node
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 3406298
+Filename: node-browserify_17.0.0-3_arm_cortex-a15_neon-vfpv4.ipk
+Size: 3395549
+SHA256sum: 105d69e3c1913609a7d20bed3f883252cceff919a9cd349951968a89bf65660e
+Description:  browserify will recursively analyze all the require() calls in your app in order to build a bundle you can serve up to the browser in a single <script> tag
+
+Package: node-bufferutil
+Version: 4.0.6-1
+Depends: libc, node
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 9482
+Filename: node-bufferutil_4.0.6-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 10384
+SHA256sum: 097be96906350b9b502b1ebc4d8fe8e0f81ea2bfcddd8a596a5b23ad696e08d3
+Description:  bufferutil is what makes ws fast. It provides some utilities to efficiently perform some operations such as masking and unmasking the data payload of WebSocket frames.
+
+Package: node-classic-level
+Version: 1.2.0-1
+Depends: libc, node, node-leveldown
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 563104
+Filename: node-classic-level_1.2.0-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 563065
+SHA256sum: c901998de7758567093852237bca34650be25e6dd3dc06802220e7dc57abf426
+Description:  An abstract-level database backed by LevelDB. The successor to leveldown with builtin encodings, sublevels, events, promises and support of Uint8Array.
+
+Package: node-clean-modules
+Version: 2.0.5-1
+Depends: libc, node
+License: ISC
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 210978
+Filename: node-clean-modules_2.0.5-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 211818
+SHA256sum: bf383c74a5b4c9e845fc395cf257ad4b4c6688a6d93790aa0b0ae59f7c7e0903
+Description:  Clean up/prune unnecessary files and reduce the size of your node_modules directory. Useful for CI caches or for reducing the size of your AWS Lambdas/Azure Functions.
+
+Package: node-coap
+Version: 1.0.11-1
+Depends: libc, node
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 531899
+Filename: node-coap_1.0.11-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 532732
+SHA256sum: d4aff2e9d64d6381ba464b2eb30481bdd6ee6ed2533748a352b34c9d3ea68a59
+Description:  node-coap is a client and server library for CoAP modelled after the http module
+
+Package: node-cpx
+Version: 1.5.0-12
+Depends: libc, node
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 1539285
+Filename: node-cpx_1.5.0-12_arm_cortex-a15_neon-vfpv4.ipk
+Size: 1533379
+SHA256sum: 70d4455b764cd8f44e301fa78695c4a487fc69321caff308780e534e185ca0c2
+Description:  This module provides a CLI tool like cp, but with watching
+
+Package: node-deasync-promise
+Version: 1.0.1-3
+Depends: libc, node, node-deasync
+License: ISC
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 918
+Filename: node-deasync-promise_1.0.1-3_arm_cortex-a15_neon-vfpv4.ipk
+Size: 1755
+SHA256sum: 8f570d96276e22e4f5dd007fdb58bd0742019d75ad79d0828560c050bb071ab5
+Description:  Transforms async functions into sync with promise API
+
+Package: node-deasync
+Version: 0.1.26-1
+Depends: libc, node
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 161679
+Filename: node-deasync_0.1.26-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 162677
+SHA256sum: 0df81197ff10009fb84adb8d866ad7597111e9eaf62e4670236a3fa5ba6fa617
+Description:  DeAsync turns async function into sync, implemented with a blocking mechanism by calling Node.js event loop at JavaScript layer. The core of deasync is writen in C++.
+
+Package: node-eddystone-beacon
+Version: 1.0.7-9
+Depends: libc, node, node-bleno
+License: Apche-2.0
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 34923
+Filename: node-eddystone-beacon_1.0.7-9_arm_cortex-a15_neon-vfpv4.ipk
+Size: 35536
+SHA256sum: 4b23c61059ae286ae8ee85b7683b2086861a17f13cf4faf64d07a86751625267
+Description:  Create an Eddystone Beacon using Node.js
+
+Package: node-enocean-utils
+Version: 0.5.1-3
+Depends: libc, node, node-serialport
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 36173
+Filename: node-enocean-utils_0.5.1-3_arm_cortex-a15_neon-vfpv4.ipk
+Size: 37095
+SHA256sum: 37d40980a3b29599613d3cc23254a700795b7af8553bf543b1d41bf4962822be
+Description:  The node-enocean-utils is a Node.js module which allows you to get and analyze telegrams came from EnOcean devices via a gateway such as USB 300/300U/400J or EnOcean Pi.
+
+Package: node-epoll
+Version: 4.0.1-2
+Depends: libc, node
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 103027
+Filename: node-epoll_4.0.1-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 103982
+SHA256sum: caed33d13f2c94ba09dbef018afb64848dd7ea88946fb2f9ed09d69b1d0b87d7
+Description:  A low-level Node.js binding for the Linux epoll API for monitoring multiple file descriptors to see if I/O is possible on any of them.
+
+Package: node-exorcist
+Version: 2.0.0-2
+Depends: libc, node
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 47469
+Filename: node-exorcist_2.0.0-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 48431
+SHA256sum: 812dcdb09708e8f3ed075b631b9f54df78639778e0674877fbd93d68a913b9a1
+Description:  Externalizes the source map found inside a stream to an external .map file or stream.
+
+Package: node-expat
+Version: 2.4.0-2
+Depends: libc, node, libexpat
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 141340
+Filename: node-expat_2.4.0-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 142178
+SHA256sum: 46bcfecf5772bfe682bfcb0c4c1ec253007b832359ac83ac72ac1c9e42744e92
+Description:  Node.js binding for fast XML parsing
+
+Package: node-express
+Version: 4.18.1-1
+Depends: libc, node
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 649950
+Filename: node-express_4.18.1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 650176
+SHA256sum: 0121491346d2f5461d8a8a32612f9ab7ed7012d264014a4f092d98740880295d
+Description:  Fast, unopinionated, minimalist web framework
+
+Package: node-ffi-napi
+Version: 4.0.3-2
+Depends: libc, node, libffi
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 409002
+Filename: node-ffi-napi_4.0.3-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 409444
+SHA256sum: 8727d8df19d8c075ffd4c979f2c7dcd69e9b5595f89f6b0be89df5241e43b5fc
+Description:  node-ffi-napi is a Node.js addon for loading and calling dynamic libraries using pure JavaScript. It can be used to create bindings to native libraries without writing any C++ code.
+
+Package: node-ffmpeg-for-homebridge
+Version: 0.1.4-1
+Depends: libc, node, ffmpeg
+License: none
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 2422
+Filename: node-ffmpeg-for-homebridge_0.1.4-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 3292
+SHA256sum: 1ad716f25e31368355df0baadac991596b35865e5fa303ddec0d1001dbc493a2
+Description:  Static ffmpeg binaries for Homebridge with support for audio (libfdk-aac) and hardware decoding (h264_omx).
+
+Package: node-firmata
+Version: 2.3.0-2
+Depends: libc, node, node-serialport
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 30907
+Filename: node-firmata_2.3.0-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 31837
+SHA256sum: 6239991bb1fe38b32ddf9c4c083173d27c3607ab9a221fce201041637e9cce90
+Description:  Firmata protocol implementation for programmatic interaction with Arduino and Arduino compatible development boards
+
+Package: node-forever
+Version: 4.0.3-1
+Depends: libc, node
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 3035190
+Filename: node-forever_4.0.3-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 3025420
+SHA256sum: 109b58df3a0ffad802b83489f4311b14632c0cdc18e5e02a5837620e39e3ee35
+Description:  A simple CLI tool for ensuring that a given node script runs continuously (i.e. forever)
+
+Package: node-fuse-bindings
+Version: 2.12.4-3
+Depends: libc, node, libfuse1
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 2164734
+Filename: node-fuse-bindings_2.12.4-3_arm_cortex-a15_neon-vfpv4.ipk
+Size: 2164164
+SHA256sum: 8acc38d242833bb437a9bc029d150880976cfd03e5026460e68bc77b828240b1
+Description:  Fully maintained fuse bindings for Node that aims to cover the entire FUSE api
+
+Package: node-gulp
+Version: 4.0.2-1
+Depends: libc, node
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 2500289
+Filename: node-gulp_4.0.2-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 2491699
+SHA256sum: 7dd2fa7a2832156cf0c6dd588d8a9429e821a6be022acde7a76a972b36041d38
+Description:  A toolkit to automate & enhance your workflow. Leverage gulp and the flexibility of JavaScript to automate slow, repetitive workflows and compose them into efficient build pipelines.
+
+Package: node-gyp
+Version: 9.0.0-1
+Depends: libc, node
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 1344660
+Filename: node-gyp_9.0.0-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 1344445
+SHA256sum: e139528644ba8a6c70690b4aa2c89bcde372dae30e4215dd9f4c3fdd117fbffd
+Description:  node-gyp is a cross-platform command-line tool written in Node.js for compiling native addon modules for Node.js. It contains a vendored copy of the gyp-next project that was previously used by the Chromium team, extended to support the development of Node.js native addons.
+
+Package: node-hap-nodejs
+Version: 0.10.2-1
+Depends: libc, node, libopenssl1.1
+License: Apache-2.0
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 1815358
+Filename: node-hap-nodejs_0.10.2-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 1808886
+SHA256sum: c4f6fb878fb1369d67acbbaa310b9ce2f76d1c1c1fa64d5a0654a8635de51b41
+Description:  HAP-NodeJS is a Node.js implementation of HomeKit Accessory Server
+
+Package: node-hashmap
+Version: 2.4.0-4
+Depends: libc, node
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 5498
+Filename: node-hashmap_2.4.0-4_arm_cortex-a15_neon-vfpv4.ipk
+Size: 6368
+SHA256sum: 149ab50ad6f478c243b994a6a8d08d72cf9c3feacd40569790f28bd5e69e2539
+Description:  This project provides a HashMap class that works both on Node.js and the browser. HashMap instances store key/value pairs allowing keys of any type
+
+Package: node-hid-stream
+Version: 1.1.0-3
+Depends: libc, node, node-hid
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 282573
+Filename: node-hid-stream_1.1.0-3_arm_cortex-a15_neon-vfpv4.ipk
+Size: 273271
+SHA256sum: 5cdce01d99c9b9cac0d4dbc64a78b138c13c7a003fcf50fdba1c4b4072ec7f0e
+Description:  Stream data from HID device in Node.js. Wraps node-hid in a node.js Stream.
+
+Package: node-homebridge-camera-ffmpeg
+Version: 3.1.4-1
+Depends: libc, node, node-homebridge, node-ffmpeg-for-homebridge, node-mqtt
+License: ISC Apache-2.0 License
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 49196
+Filename: node-homebridge-camera-ffmpeg_3.1.4-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 50107
+SHA256sum: 2edc9a8d2c72da5ea0f540c2be1540e334bbe051fe60b71b749482d0b1d35afa
+Description:  Homebridge Plugin Providing FFmpeg-based Camera Support
+
+Package: node-homebridge-cmd4
+Version: 6.3.0-1
+Depends: libc, node, node-homebridge
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 12303119
+Filename: node-homebridge-cmd4_6.3.0-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 12190518
+SHA256sum: 24c7a148dfbfe29cff4bef687727627e888d0c9c8e47061671b45cd0c8ca056b
+Description:  Cmd4 is a plugin for Homebridge that lets you see what Homebridge and Homekit are all about, without actually owning a single accessory! For the more advanced user, Cmd4 brings CLI support for all device types (Accessories) and characteristics.
+
+Package: node-homebridge-config-ui-x
+Version: 4.48.1-1
+Depends: libc, node, node-homebridge, sudo, node-pty-prebuilt-multiarch, node-bufferutil, node-utf-8-validate
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 12533966
+Filename: node-homebridge-config-ui-x_4.48.1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 12466813
+SHA256sum: cab2374a1a03793614c37cfb9a4d34a787a211fe5a868eab89474b51201a3b00
+Description:  Homebridge Config UI X is a web based management tool for Homebridge that allows you to manage all aspects of your Homebridge setup.
+ 
+ Run as root:
+ hb-service install --user homebridge -U /usr/share/homebridge
+ hb-service restart
+ 
+ *** The hb-service command is not full compatible with the openwrt environment. ***
+ *** You can edit config.json using the Homebridge Config UI X. ***
+ 
+ See: https://github.com/oznu/homebridge-config-ui-x/wiki/Manual-Configuration
+ https://github.com/oznu/homebridge-config-ui-x/wiki/Manual-Configuration#logs-from-custom-command
+ https://github.com/oznu/homebridge-config-ui-x/wiki/Manual-Configuration#sudo-mode
+ 
+ "platforms": [
+ {
+ "platform": "config",
+ "name": "Config",
+ "port": 8581,
+ "restart": "sudo /etc/init.d/homebridge restart",
+ "sudo": true,
+ "log": {
+ "method": "custom",
+ "command": "sudo logread -f -l 300 -e homebridge"
+ }
+ }
+ ]
+
+Package: node-homebridge-z2m
+Version: 1.9.0-1
+Depends: libc, node, node-homebridge, node-mqtt
+License: Apache-2.0
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 336431
+Filename: node-homebridge-z2m_1.9.0-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 318727
+SHA256sum: 4bf71a08059faae392db6fd2ccc10930de2759e182422ce0d2ae4031230de3f9
+Description:  Expose your Zigbee devices to HomeKit with ease, by integrating Zigbee2MQTT with Homebridge (via an MQTT message broker).
+
+Package: node-homekit2mqtt
+Version: 1.1.2-2
+Depends: libc, node, node-hap-nodejs, node-homebridge-camera-ffmpeg, node-mqtt
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 6172840
+Filename: node-homekit2mqtt_1.1.2-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 6160225
+SHA256sum: daf62a315d03ea43ea08489c02a5556e1a6e59e03a816b3a65d60875d8a06403
+Description:  HomeKit to MQTT bridge
+
+Package: node-i2c-bus
+Version: 5.2.2-2
+Depends: libc, node
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 725472
+Filename: node-i2c-bus_5.2.2-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 726565
+SHA256sum: 673efbeeaab6728faf26995e0a51d909089df4bf1f8227731839a3e4b533ae66
+Description:  I2C serial bus access with Node.js on Linux boards like the Raspberry Pi Zero, 1, 2, or 3, BeagleBone, BeagleBone Black, or Intel Edison. All methods have asynchronous and synchronous forms
+
+Package: node-inspect
+Version: 2.0.0-4
+Depends: libc, node
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 23082
+Filename: node-inspect_2.0.0-4_arm_cortex-a15_neon-vfpv4.ipk
+Size: 23911
+SHA256sum: 6ac9e2ee3322b9a58471bb8ad39b2ad7c93d2e89c53e52509d808dec14291822
+Description:  node-inspect re-implementing node debug against the new V8 debugger protocol.
+
+Package: node-johnny-five
+Version: 2.1.0-1
+Depends: libc, node, node-firmata, node-serialport
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 476592
+Filename: node-johnny-five_2.1.0-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 477292
+SHA256sum: eca3a7b77aa719d4e80e48ed507e460d467ddc435f78ff9b9d0040158ef92b18
+Description:  The JavaScript Robotics and Hardware Programming Framework
+
+Package: node-jsonfile
+Version: 6.1.0-3
+Depends: libc, node
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 17618
+Filename: node-jsonfile_6.1.0-3_arm_cortex-a15_neon-vfpv4.ipk
+Size: 18475
+SHA256sum: dafcd3f40d787e90cce0ac00b3aaf6addd83f5d46a92fa811cabf5ea83158cb4
+Description:  Easily read/write JSON files
+
+Package: node-lambda
+Version: 1.0.0-1
+Depends: libc, node
+License: BSD-2-Clause
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 11795803
+Filename: node-lambda_1.0.0-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 11778809
+SHA256sum: c0d212d70137b0fee14bf94f104d7ea0183980026cfe2b4c7c588254e858dd42
+Description:  Command line tool for locally running and remotely deploying your node.js applications to Amazon Lambda
+
+Package: node-level
+Version: 8.0.0-1
+Depends: libc, node, node-classic-level
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 183528
+Filename: node-level_8.0.0-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 184118
+SHA256sum: 528ef400b49b2403391f664260e282c0bb7b362af13254785680b7fc4ab0c3dc
+Description:  Fast & simple storage - a Node.js-style LevelDB wrapper (a convenience package bundling LevelUP & LevelDOWN)
+
+Package: node-leveldown
+Version: 6.1.1-1
+Depends: libc, node
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 254770
+Filename: node-leveldown_6.1.1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 254715
+SHA256sum: 70546ef2c6fa4e97787f1abb776717771f83093d9df07d35a27685c162172a72
+Description:  A Node.js LevelDB binding, primary backend for LevelUP
+
+Package: node-levelup
+Version: 5.1.1-1
+Depends: libc, node, node-leveldown
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 182832
+Filename: node-levelup_5.1.1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 183585
+SHA256sum: 85018555fd4f6cd043a4b1447b8d072ceb19249ea33d4578240c460bfd755759
+Description:  Fast & simple storage - a Node.js-style LevelDB wrapper
+
+Package: node-logfmt
+Version: 1.3.2-3
+Depends: libc, node
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 22736
+Filename: node-logfmt_1.3.2-3_arm_cortex-a15_neon-vfpv4.ipk
+Size: 23644
+SHA256sum: 7f2466cc1e9b4250e372bd0f2adbf1a8ac64f22d43171c32fadad983146ee36c
+Description:  "logfmt" is the name for a key value logging convention we've adopted at Heroku,
+ This library is for both converting lines in logfmt format to objects and for logging objects to a stream in logfmt format
+
+Package: node-lwm2m-node-lib
+Version: 1.4.0-1
+Depends: libc, node
+License: AGPL-3.0
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 3230769
+Filename: node-lwm2m-node-lib_1.4.0-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 3224505
+SHA256sum: 591b177d50e1af133be2acb81e4b9511705fee5124c3f5dae46c6c5f7599b1aa
+Description:  The Open Mobile Alliance Lightweight M2M protocol is a machine to machine communication protocol built over COAP, and meant to communicate resource constrained devices. The protocol defines two roles for the devices: a Lightweight M2M Client (the constrained device) and a Lightweight M2M Server (meant to consume the device data and control its execution).
+
+Package: node-mdns
+Version: 2.7.2-3
+Depends: libc, node, libavahi-compat-libdnssd
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 137992
+Filename: node-mdns_2.7.2-3_arm_cortex-a15_neon-vfpv4.ipk
+Size: 138838
+SHA256sum: e198a6bf5c52eaa40dab266b7dbdc12b088fcf355ce26af239e9d96b4dc62d4d
+Description:  mdns adds multicast DNS service discovery, also known as zeroconf or bonjour to Node.js. It provides an object based interface to announce and browse services on the local network
+
+Package: node-megahash
+Version: 1.0.5-2
+Depends: libc, node
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 96285
+Filename: node-megahash_1.0.5-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 97261
+SHA256sum: 5424d1933facd0ff8f83b1390433ec3481aa23e042df04a7c92d1ef78d4a0b7a
+Description:  MegaHash is a super-fast C++ hash table with a Node.js wrapper, capable of storing over 1 billion keys, has read/write speeds above 500,000 keys per second (depending on CPU speed and total keys in hash), and relatively low memory overhead. This module is designed primarily as a replacement for ES6 Maps, which seem to crash Node.js after about 15 million keys.
+
+Package: node-mocha
+Version: 10.0.0-1
+Depends: libc, node
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 1076377
+Filename: node-mocha_10.0.0-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 1076123
+SHA256sum: 8699081cfcdbecd3ee3d61ad6eb880403bf395225a100ea38f50d8da0fd1298c
+Description:  Mocha is a simple, flexible, fun JavaScript test framework for node.js and the browser
+
+Package: node-modbus-serial
+Version: 8.0.5-2
+Depends: libc, node, node-serialport
+License: ISC
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 58487
+Filename: node-modbus-serial_8.0.5-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 59478
+SHA256sum: 24417d9c59ec5193cd07839e83587f298c54209534c80c76c7014338b36fbe0c
+Description:  A pure JavaScript implemetation of MODBUS-RTU (Serial and TCP) for NodeJS.
+ Modbus is a serial communications protocol, first used in 1979. Modbus is simple and robust, openly published, royalty-free and easy to deploy and maintain.
+
+Package: node-modclean
+Version: 3.0.0-beta.1-1
+Depends: libc, node
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 204936
+Filename: node-modclean_3.0.0-beta.1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 202319
+SHA256sum: 13253f19e4aea9aa49d67e4746715e0d825dc3bd84554d50d4f3233bdd26d33c
+Description:  Remove unwanted files and directories from your node_modules folder
+
+Package: node-mqtt
+Version: 4.3.7-1
+Depends: libc, node, node-ws
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 509185
+Filename: node-mqtt_4.3.7-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 509629
+SHA256sum: 1aabd962ef56ed1732f9cf23c8954f88866242a322eff3e7e975af091653aa9d
+Description:  MQTT.js is a client library for the MQTT protocol, written in JavaScript for node.js and the browser
+
+Package: node-nconf
+Version: 0.12.0-1
+Depends: libc, node
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 347535
+Filename: node-nconf_0.12.0-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 347715
+SHA256sum: 15079b14f6ac74265efbcbecc66558b0406a5e16091dbd076b0d7a9962ffc1d0
+Description:  Hierarchical node.js configuration with files, environment variables, command-line arguments, and atomic object merging
+
+Package: node-net-ping
+Version: 1.2.3-4
+Depends: libc, node
+License: Apache-2.0
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 150125
+Filename: node-net-ping_1.2.3-4_arm_cortex-a15_neon-vfpv4.ipk
+Size: 150683
+SHA256sum: 1cdda43a3ac7377d7337fdddf97db2260284afd01080c4c4067bbf4ab31cc3a8
+Description:  This module implements ICMP Echo (ping) support for Node.js
+
+Package: node-noble-device
+Version: 1.4.1-2
+Depends: libc, node, node-noble
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 7577
+Filename: node-noble-device_1.4.1-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 8485
+SHA256sum: b3eb1ab8a4a4a6859ba13ca9a6951e2b182d7269035d0d2e1c3c695e60d98045
+Description:  A Node.js lib to abstract BLE (Bluetooth Low Energy) peripherals, using noble
+
+Package: node-noble
+Version: 1.9.1-4
+Depends: libc, node, node-bluetooth-hci-socket
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 175748
+Filename: node-noble_1.9.1-4_arm_cortex-a15_neon-vfpv4.ipk
+Size: 176519
+SHA256sum: 0c03f607ac8de1e9c66739e737713cf66250fcd3e5e68dcaf2db0ed53beefeb7
+Description:  A node.js BLE (Bluetooth low energy) central library.
+
+Package: node-npm-check-updates
+Version: 15.0.1-1
+Depends: libc, node, git
+License: Apache-2.0
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 3858897
+Filename: node-npm-check-updates_15.0.1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 3854197
+SHA256sum: 58de863b89aa575c59c85f075fa8da5329bbf9278c8af391d5b640be6b9695c5
+Description:  The npm-check-updates program is a command-line tool that allows you to upgrade your package.json or bower.json dependencies to the latest versions, regardless of existing version constraints
+
+Package: node-onoff
+Version: 6.0.3-2
+Depends: libc, node, node-epoll
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 247806
+Filename: node-onoff_6.0.3-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 248860
+SHA256sum: 432392ddbf91fceb7ff9d45d51def45859ecf69706e5b79eb1b1e1b90b5842dd
+Description:  GPIO access and interrupt detection with Node.js on Linux boards like the Raspberry Pi Zero, 1, 2, or 3, BeagleBone, or BeagleBone Black
+
+Package: node-openzwave-shared
+Version: 1.7.2-2
+Depends: libc, node, libopenzwave
+License: ISC
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 179721
+Filename: node-openzwave-shared_1.7.2-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 180278
+SHA256sum: fe6149c884c047d7f85f240684d5d635dc479a49f76e64f310e58e5f7e6c08fe
+Description:  You can now easily control and manage your ZWave devices (lights, dimmers, blinds, you name it) from within Node.js applications. This library also supports secure devices (eg door locks) that require encryption.
+
+Package: node-pi-spi
+Version: 1.2.1-4
+Depends: libc, node
+License: BSD-2-Clause
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 86805
+Filename: node-pi-spi_1.2.1-4_arm_cortex-a15_neon-vfpv4.ipk
+Size: 87767
+SHA256sum: 693cb05f2924a5e5d814a0afbd196416b833456b0cfb7ccc3b12ac9b72274784
+Description:  Simple asyncronous node.js SPI library for Raspberry Pi (and likely other embedded Linux platforms that provide /dev/spidevN.N).
+
+Package: node-pm2
+Version: 5.2.0-1
+Depends: libc, node
+License: AGPL-3.0
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 5842092
+Filename: node-pm2_5.2.0-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 5831527
+SHA256sum: d3d2ca097d36f3df79615c68102644ab10db6d8cf61e8c7de7fbbc9000545c22
+Description:  PM2 is a production process manager for Node.js applications with a built-in load balancer. It allows you to keep applications alive forever, to reload them without downtime and to facilitate common system admin tasks
+
+Package: node-pty-prebuilt-multiarch
+Version: 0.10.1-pre.5-1
+Depends: libc, node
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 453266
+Filename: node-pty-prebuilt-multiarch_0.10.1-pre.5-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 453964
+SHA256sum: 911cfa6f878ed8a2c84b3525af52ce5f5e098727bab65aa4c615f497f292fa3a
+Description:  This project is a parallel fork of node-pty providing prebuilt packages for certain Node.js and Electron versions.
+
+Package: node-pty
+Version: 0.10.1-2
+Depends: libc, node
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 120821
+Filename: node-pty_0.10.1-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 121792
+SHA256sum: ee2692548e9102790cc497eee22efb0a7c9fc7baa2ca8c52421d8323699b8e98
+Description:  forkpty(3) bindings for node.js. This allows you to fork processes with pseudoterminal file descriptors. It returns a terminal object which allows reads and writes.
+
+Package: node-red-contrib-gpio
+Version: 0.51.0-3
+Depends: libc, node, node-red, node-johnny-five, node-mqtt
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 631701
+Filename: node-red-contrib-gpio_0.51.0-3_arm_cortex-a15_neon-vfpv4.ipk
+Size: 631611
+SHA256sum: 643d9f04d87a77f0961d8515aff1a92a5ef75d4a84756aa69764812d7ee5d870
+Description:  A set of input and output nodes for controlling General Purpose Input and Outputs (GPIOs) though the use of johnny-five I/O Plugins as well as running johnny-five scripts!
+
+Package: node-red-contrib-homekit-bridged
+Version: 1.4.3-1
+Depends: libc, node, node-red, node-hap-nodejs
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 179471
+Filename: node-red-contrib-homekit-bridged_1.4.3-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 179925
+SHA256sum: aa9a9291843df953040b951cac5cf5344a781ede9121b6be339828d1a5aec17d
+Description:  node-red-contrib-homekit-bridged (aka NRCHKB) is a Node-RED nodes pack to simulate Apple HomeKit devices.
+
+Package: node-red-contrib-modbus
+Version: 5.21.2-1
+Depends: libc, node, node-red, node-modbus-serial, node-serialport-list
+License: BSD-3-Clause
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 4849752
+Filename: node-red-contrib-modbus_5.21.2-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 4840024
+SHA256sum: e23f49b35318b722118dcf2e8e3ba74cd78b3af863c4ad195c786f5ec7bcf9b2
+Description:  The all in one Modbus TCP and Serial contribution package for Node-RED. Based on modbus-serial with TCP, C701, Telnet, Serial, RTU buffered, and ASCII.
+
+Package: node-red-dashboard
+Version: 3.1.7-1
+Depends: libc, node, node-red
+License: Apache-2.0
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 2967833
+Filename: node-red-dashboard_3.1.7-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 2964860
+SHA256sum: e98e68538f78e5ba2951d88dd28dfb4f16bc4616a5d8dcc05f4aeeb1084bdb99
+Description:  This module provides a set of nodes in Node-RED to quickly create a live data dashboard.a
+
+Package: node-red-node-arduino
+Version: 0.3.1-3
+Depends: libc, node, node-red, node-firmata
+License: Apache-2.0
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 5676
+Filename: node-red-node-arduino_0.3.1-3_arm_cortex-a15_neon-vfpv4.ipk
+Size: 6506
+SHA256sum: 578943ee0cc64df82251b1f931c4dbfdddfc03ed25a0f6901995b8e0ba8d6ceb
+Description:  A Node-RED node to talk to an Arduino running firmata
+
+Package: node-red-node-discovery
+Version: 0.0.23-1
+Depends: libc, node, node-red, node-mdns
+License: Apache-2.0
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 6551
+Filename: node-red-node-discovery_0.0.23-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 7471
+SHA256sum: ac57b7999333d7c77bc470e40156b7578a562f3e62d072852e7029aa4b33dcf9
+Description:  A Node-RED node that uses Bonjour / Avahi to discover local network services such as iTunes libraries, printers, etc.
+
+Package: node-red-node-serialport
+Version: 1.0.1-1
+Depends: libc, node, node-red, node-serialport
+License: Apache-2.0
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 14984
+Filename: node-red-node-serialport_1.0.1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 15795
+SHA256sum: b9af9b06742544c6b32da78d23f095153cfb24be52db26870e3ef4ec246409a3
+Description:  Node-RED nodes to talk to hardware serial ports.
+
+Package: node-red-node-sqlite
+Version: 1.0.3-1
+Depends: libc, node, node-red, node-sqlite3
+License: Apache-2.0
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 7229
+Filename: node-red-node-sqlite_1.0.3-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 8115
+SHA256sum: 7104688fb8621e126fd39bfc58ae1a5d036321fcc8d0714421ec6fca6c30bbf9
+Description:  A Node-Red node to read and write a local sqlite database.
+
+Package: node-red
+Version: 2.2.2-1
+Depends: libc, node, node-npm, node-bcrypt, node-bufferutil, node-utf-8-validate
+License: Apache-2.0
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 11428848
+Filename: node-red_2.2.2-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 11221671
+SHA256sum: 53c492302b62442db172b7730a880fa89f199c5092eea4cf9525e860a4ebc1e4
+Description:  A visual tool for wiring the Internet of Things
+
+Package: node-rimraf
+Version: 3.0.2-3
+Depends: libc, node
+License: ISC
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 53611
+Filename: node-rimraf_3.0.2-3_arm_cortex-a15_neon-vfpv4.ipk
+Size: 54529
+SHA256sum: 4b86ec2aa88f174fa4ab2225b9ec7664a2903b89cc6a8a48ebb6e04711c18472
+Description:  The UNIX command rm -rf for node
+
+Package: node-rpi-gpio
+Version: 2.1.7-3
+Depends: libc, node, node-epoll
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 39185
+Filename: node-rpi-gpio_2.1.7-3_arm_cortex-a15_neon-vfpv4.ipk
+Size: 40015
+SHA256sum: b865c992cdb1177f439bd59c478d3d457a5aeb4cc3f6bdb506aee30d4b22a4c6
+Description:  Control Raspberry Pi GPIO pins with node.js
+
+Package: node-rpio
+Version: 2.4.2-2
+Depends: libc, node
+License: ISC AND GPL-2.0
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 125265
+Filename: node-rpio_2.4.2-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 126164
+SHA256sum: b02e6970357c53ee48bcd75a2fd36c42f7f32f2eeaa3bd5672379ef242f1990e
+Description:  This is a high performance node.js addon which provides access to the Raspberry Pi GPIO interface, supporting regular GPIO as well as i²c, PWM, and SPI
+
+Package: node-serialport-bindings-cpp
+Version: 10.7.0-1
+Depends: libc, node
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 125200
+Filename: node-serialport-bindings-cpp_10.7.0-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 125810
+SHA256sum: d744be18c0eda894bf2f5676f98bf9d26403817afdbd68ce36d94c59a54cc369
+Description:  The Bindings provide a low level interface to work with your serialport. It is possible to use them alone but it's usually easier to use them with an interface.
+
+Package: node-serialport-list
+Version: 10.4.0-1
+Depends: libc, node, node-serialport-bindings-cpp
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 45305
+Filename: node-serialport-list_10.4.0-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 46226
+SHA256sum: a39c98cce53f4de193d673b5c619167d5aedcb5ad09e87afb0226acc041610c3
+Description:  The package @serialport/list will install the serialport-list cli tool which lists all available serial ports in different formats.
+
+Package: node-simple-xmpp
+Version: 2.3.1-2
+Depends: libc, node
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 1369475
+Filename: node-simple-xmpp_2.3.1-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 1366472
+SHA256sum: 4fb92f906aaf3dea0085f3b1c482ae1f8c0ba2be8db406a85bb381640fe79b3c
+Description:  Simple High Level Node.js XMPP Library
+
+Package: node-sleep
+Version: 6.3.0-3
+Depends: libc, node
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 82388
+Filename: node-sleep_6.3.0-3_arm_cortex-a15_neon-vfpv4.ipk
+Size: 83371
+SHA256sum: ae114d2487187f844c55659dcea8c587346aa9e5b0922599e6ae708807a48f51
+Description:  These calls will block execution of all JavaScript by halting Node.js' event loop!
+
+Package: node-socket.io-client
+Version: 4.5.1-1
+Depends: libc, node
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 502088
+Filename: node-socket.io-client_4.5.1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 501388
+SHA256sum: 145b8682ce828740402eec4c5410ffa660e044d16209d984e8de93b69ad7bc90
+Description:  Socket.IO client for the browser and node.js
+
+Package: node-socket.io
+Version: 4.5.1-1
+Depends: libc, node
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 738190
+Filename: node-socket.io_4.5.1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 738993
+SHA256sum: 07de70ab07bfd4854a0e1ccc3ae64b4fb601ca6bf09cb11812daa1eaa56a437f
+Description:  Real-time apps made cross-browser & easy with a WebSocket-like API
+
+Package: node-spi-device
+Version: 3.1.2-1
+Depends: libc, node
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 347601
+Filename: node-spi-device_3.1.2-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 348586
+SHA256sum: ffdf03799775254daf64d14ce183a86c13740937d8862c1620f3bc25b5e1cf21
+Description:  SPI serial bus access with Node.js on Linux boards like the Raspberry Pi or BeagleBone. All methods have asynchronous and synchronous forms.
+
+Package: node-sqlite3
+Version: 5.0.8-1
+Depends: libc, node
+License: BSD-3-Clause
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 2349641
+Filename: node-sqlite3_5.0.8-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 2342325
+SHA256sum: 4c1ec97f4fd2abf7d086256154e8fa0cbfacbf06746e00c6470043c2ee6a2d09
+Description:  Asynchronous, non-blocking SQLite3 bindings for Node.js
+
+Package: node-static
+Version: 0.7.11-4
+Depends: libc, node
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 71281
+Filename: node-static_0.7.11-4_arm_cortex-a15_neon-vfpv4.ipk
+Size: 72273
+SHA256sum: 13db3c6d32a12560f06fc284814c1cb933ffb9b141382ff16a16b68c079fd83c
+Description:  node-static understands and supports conditional GET and HEAD requests. node-static was inspired by some of the other static-file serving modules out there, such as node-paperboy and antinode
+
+Package: node-statvfs
+Version: 2.2.1-1
+Depends: libc, node
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 84191
+Filename: node-statvfs_2.2.1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 85123
+SHA256sum: b7362a217d060859e72d107885f7241f58253bf4bcd6aeeca863c4e12cbaa7d0
+Description:  statvfs is a super simple module that just gives you access to statvfs(3)
+
+Package: node-system-sleep
+Version: 1.3.7-3
+Depends: libc, node, node-deasync-promise
+License: none
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 2142
+Filename: node-system-sleep_1.3.7-3_arm_cortex-a15_neon-vfpv4.ipk
+Size: 2971
+SHA256sum: b9969388bccfbb9695935d35c637f5408d19fbe0e23968c87eb8082f0d412880
+Description:  A real and better system sleep() for Node. Works on every platform.
+
+Package: node-twilio
+Version: 3.78.0-1
+Depends: libc, node
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 2358817
+Filename: node-twilio_3.78.0-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 2324750
+SHA256sum: 9abd10cabdcb781a6da8964abd055e74bd06323dc2ccff817078063f8c5c693c
+Description:  A Twilio helper library
+
+Package: node-typescript
+Version: 4.7.4-1
+Depends: libc, node
+License: Apache-2.0
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 11385580
+Filename: node-typescript_4.7.4-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 11387710
+SHA256sum: bc88af724ec5ad4ea002740c77cd715cdffac812f2c4e831c657785b76781f55
+Description:  TypeScript is a language for application-scale JavaScript. TypeScript adds optional types, classes, and modules to JavaScript. TypeScript supports tools for large-scale JavaScript applications for any browser, for any host, on any OS. TypeScript compiles to readable, standards-based JavaScript.
+
+Package: node-ubus
+Version: 1.0.0-3
+Depends: libc, node, libubus20210630, libjson-c5, libblobmsg-json20210516, libubox20210516
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 88393
+Filename: node-ubus_1.0.0-3_arm_cortex-a15_neon-vfpv4.ipk
+Size: 89365
+SHA256sum: 439cb3e4fbe064810542632ba0129435d14fd191f47e73a251b5a3ff3023db0c
+Description:  NodeJS package to interface with OpenWrt UBus
+
+Package: node-uglify-js
+Version: 3.16.1-1
+Depends: libc, node
+License: BSD-2-Clause
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 232315
+Filename: node-uglify-js_3.16.1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 232953
+SHA256sum: a8af7ed45dba92998ff160cbf3fa06bec314033938fbae24594c894e9eb0bfdf
+Description:  JavaScript parser, mangler/compressor and beautifier toolkit
+
+Package: node-usb
+Version: 2.4.3-1
+Depends: libc, node, libusb-1.0-0
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 147747
+Filename: node-usb_2.4.3-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 148560
+SHA256sum: 6469dbbfbf367ef39efccbf8ac9e86ccb213d0705196b990f1dc42f831a474a4
+Description:  Node.js library for communicating with USB devices in JavaScript / CoffeeScript
+
+Package: node-utf-8-validate
+Version: 5.0.9-1
+Depends: libc, node
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 9145
+Filename: node-utf-8-validate_5.0.9-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 9991
+SHA256sum: 2711177ec752c466c6dc0bcabe77eb023c1eff132959f63b641dd0898875e20a
+Description:  Check if a buffer contains valid UTF-8 encoded text
+
+Package: node-websocket
+Version: 1.0.34-2
+Depends: libc, node, node-bufferutil, node-utf-8-validate
+License: Apache-2.0
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 241092
+Filename: node-websocket_1.0.34-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 239364
+SHA256sum: 57eb1ac722bbc777aa41f601aecdb649898a2ed33a8bb5b773ed18d347601676
+Description:  Websocket Client & Server Library implementing the WebSocket protocol as specified in RFC 6455.
+
+Package: node-ws
+Version: 8.8.0-1
+Depends: libc, node, node-bufferutil, node-utf-8-validate
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 31894
+Filename: node-ws_8.8.0-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 32861
+SHA256sum: e19d7f789b08049d8f035adac90bcffdcb174598fd8e8223b8bd8046349d8acf
+Description:  Simple to use, blazing fast and thoroughly tested websocket client and server for Node.js
+
+Package: node-zigbee2mqtt
+Version: 1.26.0-1
+Depends: libc, node, node-bufferutil, node-utf-8-validate
+License: GPL-3.0
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 20027456
+Filename: node-zigbee2mqtt_1.26.0-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 20016293
+SHA256sum: 2ef41c04e194cb76066fc6c04ec1e6cbef0548e60783298faa981ad4a290f7a6
+Description:  Allows you to use your Zigbee devices without the vendor's bridge or gateway. It bridges events and allows you to control your Zigbee devices via MQTT. In this way you can integrate your Zigbee devices with whatever smart home infrastructure you are using.
+
+Package: ts-node
+Version: 10.8.1-1
+Depends: libc, node, node-npm
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 503443
+Filename: ts-node_10.8.1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 504227
+SHA256sum: 8d35fcd32f87afaedff4e2ec5730ebe821a5cc872f306763ef6cefa714058dc9
+Description:  ts-node is a TypeScript execution engine and REPL for Node.js.
+ It JIT transforms TypeScript into JavaScript, enabling you to directly execute TypeScript on Node.js without precompiling. This is accomplished by hooking node's module loading APIs, enabling it to be used seamlessly alongside other Node.js tools and libraries.
+
